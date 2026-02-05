@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form6.F6S1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="13- تعداد اعضاي خانواده شما چند نفر (شامل خود شما نيز مي‌شود) هستند؟"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:inputType="number"
+                android:maxLength="2"
+                android:id="@+id/f6s13v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#ed8404"
+                android:gravity="right">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="سرپرست"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/divider"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="سن"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:id="@+id/f6s13v3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/f6s13v2tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/divider"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="جنس"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                    <RadioGroup
+                        android:id="@+id/f6s13v2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:hint="2"
+                            android:id="@+id/f6s13v2_2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:layout_gravity="start"
+                            android:button="@null"
+                            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                            android:layoutDirection="rtl"
+                            android:text="زن"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:hint="1"
+                            android:id="@+id/f6s13v2_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:layout_gravity="start"
+                            android:button="@null"
+                            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                            android:layoutDirection="rtl"
+                            android:text="مرد"
+                            android:textAlignment="textStart" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f6s13v4tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/divider"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="وضع تاهل"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/f6s13v4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f6s13v4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="متاهل"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f6s13v4_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مجرد(تا کنون ازدواج نکرده)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f6s13v4_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مجرد(به دلیل جدایی)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f6s13v4_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مجرد(به دلیل فوت همسر)"
+                        android:textAlignment="textStart" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f6s13v5tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/divider"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="تحصیلات"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/f6s13v5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f6s13v5_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="ابتدایی"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f6s13v5_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="راهنمایی و متوسطه"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f6s13v5_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="دیپلم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f6s13v5_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="ديپلم و فوق ديپلم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f6s13v5_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="کارشناسی"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="6"
+                        android:id="@+id/f6s13v5_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="کارشناسي ارشد و بالاتر"
+                        android:textAlignment="textStart" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f6s13v6tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/divider"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="شغل"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/f6s13v6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f6s13v6_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="راننده (وانت بار)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f6s13v6_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مغازه دار– میوه فروش"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f6s13v6_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مغازه دار – سوپر مارکت"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f6s13v6_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مغازه دار – مصالح فروش"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f6s13v6_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="فني کار(نجار، برقكار، لوله كش و ...)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="6"
+                        android:id="@+id/f6s13v6_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="کشاورز"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="7"
+                        android:id="@+id/f6s13v6_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="باغدار"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="8"
+                        android:id="@+id/f6s13v6_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="دامدار"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="9"
+                        android:id="@+id/f6s13v6_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="تعمیرکار"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="10"
+                        android:id="@+id/f6s13v6_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="سایر (لطفاً ذکر شود ....)"
+                        android:textAlignment="textStart" />
+
+                    <EditText
+                        android:id="@+id/f6s13v12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#ed8404"
+                android:gravity="right">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="پاسخگو"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/divider"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="سن"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:id="@+id/f6s13v8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/f6s13v7tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/divider"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="جنس"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                    <RadioGroup
+                        android:id="@+id/f6s13v7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:hint="2"
+                            android:id="@+id/f6s13v7_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:button="@null"
+                            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                            android:layoutDirection="rtl"
+                            android:text="زن"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:hint="1"
+                            android:id="@+id/f6s13v7_1"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:button="@null"
+                            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                            android:layoutDirection="rtl"
+                            android:text="مرد"
+                            android:textAlignment="textStart" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f6s13v9tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/divider"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="وضع تاهل"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/f6s13v9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f6s13v9_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="متاهل"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f6s13v9_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مجرد(تا کنون ازدواج نکرده)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f6s13v9_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مجرد(به دلیل جدایی)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f6s13v9_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مجرد(به دلیل فوت همسر)"
+                        android:textAlignment="textStart" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f6s13v10tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/divider"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="تحصیلات"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/f6s13v10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f6s13v10_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="ابتدایی"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f6s13v10_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="راهنمایی و متوسطه"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f6s13v10_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="دیپلم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f6s13v10_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="ديپلم و فوق ديپلم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f6s13v10_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="کارشناسی"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="6"
+                        android:id="@+id/f6s13v10_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="کارشناسي ارشد و بالاتر"
+                        android:textAlignment="textStart" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f6s13v11tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/divider"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="شغل"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/f6s13v11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f6s13v11_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="راننده (وانت بار)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f6s13v11_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مغازه دار– میوه فروش"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f6s13v11_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مغازه دار – سوپر مارکت"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f6s13v11_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="مغازه دار – مصالح فروش"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f6s13v11_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="فني کار(نجار، برقكار، لوله كش و ...)"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="6"
+                        android:id="@+id/f6s13v11_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="کشاورز"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="7"
+                        android:id="@+id/f6s13v11_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="باغدار"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="8"
+                        android:id="@+id/f6s13v11_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="دامدار"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="9"
+                        android:id="@+id/f6s13v11_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="تعمیرکار"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="10"
+                        android:id="@+id/f6s13v11_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:layoutDirection="rtl"
+                        android:text="سایر (لطفاً ذکر شود ....)"
+                        android:textAlignment="textStart" />
+
+                    <EditText
+                        android:id="@+id/f6s13v13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/f6s13_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

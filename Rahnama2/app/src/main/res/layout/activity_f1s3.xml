@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".form1.f1s3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/textView_error_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtmsg" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/f1s3v1"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/f1s3v1_1"
+                android:textSize="@dimen/sub_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layoutDirection="rtl"
+                android:text="@string/yes"
+                android:textAlignment="textStart" />
+
+            <RadioButton
+                android:textSize="@dimen/sub_font"
+                android:id="@+id/f1s3v1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:text="@string/no" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yes3lin"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_error12_View13"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:background="@color/divider"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="لطفا حداکثر یکی از فیلد های زیر را پر کنید." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/f1s3v3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/count"
+                    android:maxLength="1"
+                    android:inputType="number" />
+
+                <TextView
+                    android:textSize="@dimen/sub_font"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/car" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/f1s3v4"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:maxLength="1"
+                    android:hint="@string/count"
+                    />
+
+                <TextView
+                    android:textSize="@dimen/sub_font"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/truck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/no3lin"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textVie_error_w15"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:background="@color/divider"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f1s3v5">
+
+
+
+            <RadioButton
+                android:textSize="@dimen/sub_font"
+                android:hint="1"
+                android:id="@+id/f1s3v5_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/chcarno" />
+
+            <RadioButton
+                android:textSize="@dimen/sub_font"
+                android:id="@+id/f1s3v5_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:hint="2"
+                android:text="@string/chcaryes" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:textSize="@dimen/sub_font"
+                android:id="@+id/checkbtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btncheck3" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

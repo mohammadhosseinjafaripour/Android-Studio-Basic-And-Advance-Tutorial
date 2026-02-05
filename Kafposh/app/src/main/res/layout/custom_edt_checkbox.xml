@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="لطفا متراژ مدنظر خود را وارد نمایید"
+            android:layout_width="0dp"
+            android:textSize="14dp"
+            android:textColor="@color/phone_number"
+            tools:ignore="MissingPrefix"
+            android:paddingTop="5dp"
+            android:lineSpacingExtra="6dp"
+            fontPath="fonts/IRANSansMobile/IRANSansMobile_Bold.ttf"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dimension_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="متراژ"
+            android:inputType="number"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/checkbox_below_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+            android:text="از سفارش خود اطمینان دارید ؟" />
+    </LinearLayout>
+
+</LinearLayout>

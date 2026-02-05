@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form3.F3Q7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form3"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_all">
+
+
+            <TextView
+                android:id="@+id/F3S7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"
+                android:layoutDirection="rtl"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:text="7- اگر یک خودروی سواری صندوق دار,دارای اندازه متوسط و مشخصات فنی و سطح تجهیزات کاملا مشابه,با برندهای هر یک از کشور های زیر,در داخل ایران تولید شود,قیمتی را که حاضر به پرداخت آن هستید,اعلام کنید."
+                android:textDirection="rtl" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/f6s12_table_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="0.5"
+                            android:background="#ed8404"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="حداكثر قيمت قابل قبول (ميليون تومان)"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="#ed8404"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="کشور سازنده"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:maxLength="3"
+                            android:text="35"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی ایرانی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:maxLength="3"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی فرانسوی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:maxLength="3"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی ژاپنی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی آلمانی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:maxLength="3"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی کره ای"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v6"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:maxLength="3"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی ایتالیائی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:maxLength="3"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی آمریکائی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v8"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:maxLength="3"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی چینی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v9"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:maxLength="3"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی هندی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/f6s12_table_row11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp">
+
+                        <EditText
+                            android:id="@+id/f3s7v10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="0.5"
+                            android:background="#d9d8d7"
+                            android:gravity="center"
+                            android:maxLength="3"
+                            android:inputType="number"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@color/divider"
+                            android:gravity="center"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="خودروی روسی"
+                            android:textColor="#fff" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/savari" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/f3s7_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مرحله بعد" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

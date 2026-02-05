@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_all"
+    tools:context="ir.farsibase.f1s11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textysusberror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/divider"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="درصورت تحقق شرايط مورد نظر شما در سوالات 9 و 10، کداميک از موارد زير را برای خود محتمل می دانيد؟"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/f1s11v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/f1s11v1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:text="تعويض خودروی فعلی با خودروی نو"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/hint" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/f1s11v1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:text="تعويض خودروی فعلی با خودروی دست دوم کم کارکرد از بازار آزاد"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/hint" />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/f1s11v1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:text=" تعويض خودروی فعلی با خودروی دست دوم کم کارکرد از شرکت های خودروساز(خودرو دست دوم با گارانتی محدود/6 ماهه)"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/hint" />
+
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/f1s11v1_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:text=" تحت هيچ شرايطي تمايل به تعويض خودروی فعلی ندارم."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/hint" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnclick7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flat_selector"
+            android:text="پایان"
+            android:textColor="#ffff" />
+    </LinearLayout>
+
+</LinearLayout>

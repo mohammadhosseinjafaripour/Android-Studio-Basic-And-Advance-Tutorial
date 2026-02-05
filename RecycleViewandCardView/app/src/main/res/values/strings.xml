@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recycle View and Card View</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_add_favourite">لیست علاقه مندی ها</string>
+    <string name="action_play_next">بعدی</string>
+    <string name="backdrop_title">Music</string>
+    <string name="backdrop_subtitle">بهترین آهنگ های هفته</string>
+</resources>

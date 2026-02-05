@@ -1,0 +1,92 @@
+package com.jfp.rtlnavigationdrawer;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.ShareCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
+
+import com.alirezaafkar.toolbar.RtlActionBarDrawerToggle;
+import com.alirezaafkar.toolbar.RtlToolbar;
+
+public class MainActivity extends AppCompatActivity implements RtlToolbar.OnMenuItemClickListener {
+    private static final String EMAIL = "info@falearn.com";
+
+    private RtlToolbar mToolbar;
+    private DrawerLayout mDrawerLayout;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        mToolbar = (RtlToolbar) findViewById(R.id.toolbar);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        mToolbar.setOnMenuItemClickListener(this);
+
+        initDrawer();
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(mDrawerLayout, EMAIL, Snackbar.LENGTH_LONG)
+                        .setAction("ارسال",
+                                new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        sendEmail();
+                                    }
+                                })
+                        .show();
+            }
+        });
+    }
+
+    private void initDrawer() {
+        RtlActionBarDrawerToggle drawerToggle = new RtlActionBarDrawerToggle(this, mDrawerLayout,
+                mToolbar, R.string.navigation_drawer_open,
+                R.string.navigation_drawer_close);
+        mDrawerLayout.addDrawerListener(drawerToggle);
+        drawerToggle.syncState();
+    }
+
+    private void sendEmail() {
+        Intent intent = ShareCompat
+                .IntentBuilder.from(MainActivity.this)
+                .setSubject(getString(R.string.app_name))
+                .addEmailTo(EMAIL)
+                .setType("message/rfc822")
+                .createChooserIntent();
+
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+
+    @SuppressLint("RtlHardcoded")
+    @Override
+    public boolean onMenuItemClick(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                mDrawerLayout.openDrawer(mToolbar.getGravity());
+                break;
+            case R.id.action_settings:
+                Toast.makeText(MainActivity.this,
+                        item.getTitle(),
+                        Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.action_email:
+                sendEmail();
+                break;
+        }
+        return true;
+    }
+}

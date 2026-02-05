@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form1.f1s9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <include
+            layout="@layout/title_form1"
+            />
+
+
+        <LinearLayout
+        android:padding="@dimen/padding_all"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9- کداميک از شرايط زير می تواند در تصميم شما به خرید خودرو نو و تعويض خودرو فعلی تاثير بيشتری داشته باشد؟"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/f1s9v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:choiceMode="singleChoice">
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/hidden4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/f1s9v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="لطفا ذکر شود." />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnclick5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعدی"/>
+    </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form6.F6S1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/f6s6v2tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="6- در زمان خرید وانت، قابليت حمل چه وزني از بار، را مد نظر داشته اید؟"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.2"
+                    android:background="#ed8404"
+                    android:gravity="center"
+                    android:text="کیلوگرم"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/f6s6v1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="#dadada"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/f6s6v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/f6s6v2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:hint="1"
+                    android:layoutDirection="rtl"
+                    android:text="1) کمتر از 500 کیلوگرم"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/f6s6v2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:hint="2"
+                    android:layoutDirection="rtl"
+                    android:text="2) ین 501  تا 800 کیلوگرم"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/f6s6v2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:hint="3"
+                    android:layoutDirection="rtl"
+                    android:text="3) بین 801  تا 1000 کیلوگرم"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/f6s6v2_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:hint="4"
+                    android:layoutDirection="rtl"
+                    android:text="4) بین 1001 تا 1400 کیلوگرم"
+                    android:textAlignment="textStart" />
+
+                <RadioButton
+                    android:id="@+id/f6s6v2_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:hint="5"
+                    android:layoutDirection="rtl"
+                    android:text="5) بین 1401 تا 2000 کیلوگرم"
+                    android:textAlignment="textStart" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/f6s6_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

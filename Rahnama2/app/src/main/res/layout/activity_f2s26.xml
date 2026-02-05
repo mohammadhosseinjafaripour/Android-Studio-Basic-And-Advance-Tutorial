@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <include
+            layout="@layout/title_form2"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_all">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="26- هزينه هاي خانوار شما از محل درآمد چند نفر تامين مي شود؟"
+                android:id="@+id/textView"
+                android:layout_gravity="right"
+                android:visibility="visible"
+                android:textSize="@dimen/font" />
+
+            <EditText
+                android:id="@+id/f2s26v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="نفر"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02">
+
+            <Button
+                android:id="@+id/f2s26_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="ثبت"
+                android:onClick="get_sel" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>

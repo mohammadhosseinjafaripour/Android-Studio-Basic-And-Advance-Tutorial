@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form2.f2s21">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+
+        <TextView
+            android:id="@+id/f2s21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="21- درجدول زير مشخصه‌هاي کليدي يک خودرو ذکر شده است لطفاً تعيين کنيدكه كداميك از مشخصه‌هاي زير در تصميم‌گيري براي انتخاب خودروي آتي شما تاثير خواهد داشت. به ترتيب 10 اولويت اول خود را انتخاب کنيد. "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/f2s21v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="عملكرد موتور و گیربکس ( قدرت و کشش موتور، شتاب و ...)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="میزان مصرف سوخت و پیمایش خودرو"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layoutDirection="rtl"
+                android:text="بازار دست دوم و سهولت نقدشوندگی"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="سواری و لذت رانندگي (هندلينگ خوب)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="راحتی ،  ارگونومی و فضای داخل خودرو  (جای مناسب برای پا و سرنشین)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="سطح تجهیزات و امکانات رفاهی (تهویه اتوماتیک،  GPSو ...)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="ايمني(استحكام بدنه، تجهیزات ایمنی)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="میزان  صدا و لرزش داخل اتاق"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="شرايط خريدو تسهيلات"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="خدمات پس از فروش(در دسترس بودن و کیفیت خدمات)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="هزينه‌هاي سرويس و نگهداري"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="زيبايي داخلي/ خارجي خودرو (استایل خودرو)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="کیفیت (قطعات به کار رفته، قابلیت اعتماد، دوام خودرو)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="قيمت (ارزندگی خودرو به قیمت)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="مارك، برند"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/f2s21v16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="امنیت خودرو (محافظت خودرو و اجزای آن در برابر سرقت)"
+                android:textDirection="rtl" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/f4s21_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="4- شیوه خرید مورد نظر را در خصوص خرید وانت آتی خود مشخص فرمائید."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/F5S4V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S4V1_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="نقدي، فروش فوري" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S4V1_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="نقد و اقساط " />
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/F5S4V2"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="حداکثر نقدينگی قابل پرداخت " />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S4V1_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="نقدي، پيش فروش دو يا چند مرحله اي" />
+
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/F5S4V1_4"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="پیش خرید بلندمدت با هدف سرمایه گذاری" />
+
+                <RadioButton
+                    android:hint="5"
+                    android:id="@+id/F5S4V1_5"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="سایر" />
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/F5S4V3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:hint="سایر" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

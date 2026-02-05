@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:popupBackground">#ffffff</item>
+    </style>
+
+
+    <style name="rating_title_style">
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="multiOptionQuestions">
+        <item name="android:textColor">#292929</item>
+    </style>
+
+    <style name="multiOptionQuestionsDescription"></style>
+
+    <style name="category"></style>
+
+    <style name="equipmentTitle"></style>
+
+    <style name="equipmentDesc"></style>
+
+    <style name="equipmentPrice"></style>
+</resources>

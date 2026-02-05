@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form1"
+        />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/f1s7text"
+            android:textDirection="rtl"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sub_font"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مورد اول"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تا چند وقت دیگر"
+            android:id="@+id/textView4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/f1s7v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نوع خودرو"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v2"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/hidden1"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v3"
+            android:hint="سایر موارد ذکر شود"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="وضعیت خودرو"
+            android:id="@+id/textView6_22" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v4">
+        <RadioButton
+            android:id="@+id/f1s7v4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:text="نو"/>
+        <RadioButton
+            android:id="@+id/f1s7v4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:text="دست دوم"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="با توجه به توان مالی خود و تسهیلاتی که روی آن حساب میکنید (وام و ...) خودرو چند میلیونی خواهید خرید ؟"
+            android:id="@+id/textView7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/f1s7v5"
+            android:maxLength="3"
+            android:inputType="number"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            android:hint="تومان" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/convert_f1s7v5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نحوه خرید"
+            android:id="@+id/te_gxtVi2_ew9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/f1s7v6"
+            android:choiceMode="singleChoice"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            android:textAlignment="textStart">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner__hidden"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v7"
+            android:maxLength="3"
+            android:inputType="number"
+            android:hint="حد اکثر نقدینگی ؟"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/convert_f1s7v7"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مارک"
+            android:id="@+id/textView10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v8"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مدل"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v9"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تیپ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v10"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+
+    <!--> second part <-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="@dimen/sub_font"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مورد دوم"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تا چند وقت دیگر" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v11"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نوع خودرو"
+            android:id="@+id/textView5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v12"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/hidden2"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v13"
+            android:hint="سایر موارد ذکر شود"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="وضعیت خودرو"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v14">
+            <RadioButton
+                android:id="@+id/f1s7v14_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="1"
+                android:text="نو"/>
+            <RadioButton
+                android:id="@+id/f1s7v14_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2"
+                android:text="دست دوم"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="با توجه به توان مالی خود و تسهیلاتی که روی آن حساب میکنید (وام و ...) خودرو چند میلیونی خواهید خرید ؟" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/f1s7v15"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            android:hint="تومان" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/convert_f1s7v15"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txte_shddfw"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نحوه خرید" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/f1s7v16"
+            android:choiceMode="singleChoice"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            android:textAlignment="textStart">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/limnv_hidden"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v17"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="حد اکثر نقدینگی ؟"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/convert_f1s7v17"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مارک"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v18"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مدل"
+            android:id="@+id/textView11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v19"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تیپ"
+            android:id="@+id/textView12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s7v20"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05">
+
+        <Button
+            android:id="@+id/bt12"
+            android:layout_marginBottom="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="سوال بعدی"
+            android:onClick="get_sel" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+    </ScrollView>

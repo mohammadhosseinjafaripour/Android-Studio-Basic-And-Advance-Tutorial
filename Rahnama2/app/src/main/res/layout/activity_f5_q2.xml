@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="2- مهمترین هدف شما از خرید خودروي وانت چیست؟(حداکثر دو گزینه)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:hint="1"
+                android:id="@+id/F5S2V1"
+                style="@style/multiOptionQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="right|center_vertical"
+                android:text="جهت حمل بار" />
+
+            <CheckBox
+                android:hint="2"
+                android:id="@+id/F5S2V2"
+                style="@style/multiOptionQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="right|center_vertical"
+                android:text=" کمک به کار و شغل فعلی" />
+
+            <CheckBox
+                android:hint="3"
+                android:id="@+id/F5S2V3"
+                style="@style/multiOptionQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="right|center_vertical"
+                android:text="علاقه شخصی و مسافرت" />
+
+            <CheckBox
+                android:hint="4"
+                android:id="@+id/F5S2V4"
+                style="@style/multiOptionQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="right|center_vertical"
+                android:text="سایر" />
+
+            <EditText
+                android:id="@+id/F5S2V5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:hint="سایر ..."
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

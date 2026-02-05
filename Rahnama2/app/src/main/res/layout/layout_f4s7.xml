@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form4.activity_f4s1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+
+        <TextView
+            android:id="@+id/F4S21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="7- اگر یک خودروی سواری صندوق دار، دارای اندازه متوسط و مشخصات فنی و سطح تجهیزات کاملا مشابه، با برندهای هر یک از کشورهای زیر، در داخل ایران تولید شود، قیمتی را که حاضر به پرداخت آن هستید، اعلام بفرمائید."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text="حداکثر قیمت قابل قبول (ميليون تومان)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="کشور سازنده"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:inputType="number"
+                    android:text="35"
+                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:background="@drawable/edittext"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:maxLength="3"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:text="خودروی ایرانی" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.6"
+                    android:maxLength="3"
+                    
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:text="خودروی فرانسوي" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:maxLength="3"
+                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:text="خودروی ژاپني" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:maxLength="3"
+                    android:inputType="number" />
+
+                <TextView
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:text="خودروی آلماني" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:maxLength="3"
+                    android:inputType="number" />
+
+                <TextView
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:text="خودروی کره ای" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v6"
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:maxLength="3"
+                    android:inputType="number" />
+
+                <TextView
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:text="خودروی ايتاليائي" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v7"
+                    android:layout_width="0dp"
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:maxLength="3"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:text="خودروی آمريكائي" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v8"
+                    android:layout_width="0dp"
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:maxLength="3"
+                    android:inputType="number" />
+
+                <TextView
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:text="خودروی چینی" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:id="@+id/f4s7v9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:maxLength="3"
+                    android:inputType="number" />
+
+                <TextView
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:text="خودروی هندی" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/f4s7v10"
+                    android:layout_width="0dp"
+                                    android:layout_marginRight="4dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/edittext"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:maxLength="2"
+                    android:inputType="number" />
+
+                <TextView
+                    android:background="#ed8404"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.4"
+                    android:text="خودروی روسی" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carf4s1v7"/>
+        </LinearLayout>
+
+<Button
+    android:id="@+id/f4s7_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="مرحله بعد"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

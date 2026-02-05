@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form4.activity_f4s1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/f4s12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="12- درآمد تقريبي خانواده شما(مجموع درآمدهاي كل افراد خانواده بدون احتساب يارانه ها) چقدر است؟ "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+        <EditText
+            android:id="@+id/f4s12v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="8"
+            android:hint="تومان"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/convert_f4s12v1"/>
+        <TextView
+            android:id="@+id/f4s12_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+        <RadioGroup
+            android:id="@+id/f4s12v2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="0">
+
+            <RadioButton
+                android:id="@+id/f4s12v2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="کمتر از یک میلیون"
+                android:hint="1"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از يك ميليون تومان تا 1.5 ميليون تومان"
+                android:hint="2"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از 1.5 ميليون تومان تا 2 ميليون تومان"
+                android:hint="2"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از 2 ميليون تومان تا 3 ميليون تومان"
+                android:hint="4"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از 3 ميليون تومان تا 5 ميليون تومان"
+                android:hint="5"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از 5 ميليون تومان تا 7 ميليون تومان"
+                android:hint="1"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از 7 ميليون تومان تا 10 ميليون تومان"
+                android:hint="7"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="از 10 ميليون تومان تا 20 ميليون تومان"
+                android:hint="8"/>
+
+            <RadioButton
+                android:id="@+id/f4s12v2_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:button="@null"
+                android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                android:text="بيش از 20 ميليون تومان"
+                android:hint="9"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

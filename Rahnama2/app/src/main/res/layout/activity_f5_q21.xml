@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q21">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="21- با توجه به نياز، بودجه خرید و وانت انتخابی خود، لطفاً بفرمائيد وانتي كه قصد داريد در آينده خريداري نمائيد عموماً بايد قابليت حمل بارهایی با چه وزني را داشته باشد؟"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="کیلوگرم"/>
+            <EditText
+                android:inputType="number"
+                android:id="@+id/F5S21V1"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/F5S21V2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S21V2_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="کمتر از 500 کیلوگرم" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S21V2_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 501  تا 800 کیلوگرم" />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S21V2_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 801  تا 1000 کیلوگرم" />
+
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/F5S21V2_4"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 1001 تا 1400 کیلوگرم" />
+
+                <RadioButton
+                    android:hint="5"
+                    android:id="@+id/F5S21V2_5"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 1401 تا 2000 کیلوگرم" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

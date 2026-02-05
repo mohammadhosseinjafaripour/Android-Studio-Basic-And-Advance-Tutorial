@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="7- درجدول زير مشخصه‌هاي کليدي يک خودرو وانت ذکر شده است، لطفاً تعيين کنيدكه كدام يك از مشخصه‌هاي زير در تصميم‌گيري براي انتخاب خودروي آتي شما تاثير بیشتری خواهد داشت. به ترتيب 10 اولويت اول خود را انتخاب کنيد"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:hint="1"
+                android:id="@+id/F5S7V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="ابعاد قسمت بار و حجم  بار قابل حمل  (قابليت حمل بارهاي حجیم)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="2"
+                android:id="@+id/F5S7V2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="وزن بار قابل حمل خودرو وانت (قابليت حمل بارهاي سنگين)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="3"
+                android:id="@+id/F5S7V3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layoutDirection="rtl"
+                android:text="تعداد كابين (تعداد سرنشيني كه مي توان با آن جابجا نمود)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="4"
+                android:id="@+id/F5S7V4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="قابليت استفاده در انواع جاده‌ها (خاكي، شوسه، كوهستاني و …)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="5"
+                android:id="@+id/F5S7V5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="سهولت بارگيري و تخليه بار"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="6"
+                android:id="@+id/F5S7V6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="کیفیت (قطعات به کار رفته، قابلیت اعتماد، دوام خودرو)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="7"
+                android:id="@+id/F5S7V7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="سهولت و سادگي تعمير"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="8"
+                android:id="@+id/F5S7V8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="خدمات پس از فروش (در دسترس بودن و کیفیت خدمات)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="9"
+                android:id="@+id/F5S7V9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="سطح تجهیزات و امکانات رفاهی (تهویه اتوماتیک و …)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="10"
+                android:id="@+id/F5S7V10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="عملكرد موتور و قواي محركه (قدرت و کشش موتور، شتاب و …)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="11"
+                android:id="@+id/F5S7V11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="هزينه هاي سرويس و نگهداري"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="12"
+                android:id="@+id/F5S7V12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="میزان مصرف سوخت و پیمایش خودرو"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="13"
+                android:id="@+id/F5S7V13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="نوع سوخت (بنزين، گازوئيل يا دوگانه سوز بودن)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="14"
+                android:id="@+id/F5S7V14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="قيمت (ارزندگی خودرو به قیمت)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="15"
+                android:id="@+id/F5S7V15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="شاسي و فنر بندي قوي"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="16"
+                android:id="@+id/F5S7V16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="ايمني(استحكام بدنه، تجهیزات ایمنی)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="17"
+                android:id="@+id/F5S7V17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="میزان صدا و لرزش در اتاق"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="18"
+                android:id="@+id/F5S7V18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="شرایط خرید و تسهیلات"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="19"
+                android:id="@+id/F5S7V19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="زيبايي داخلي/ خارجي خودرو (استایل خودرو)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:hint="20"
+                android:id="@+id/F5S7V20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="مارك، برند"
+                android:textDirection="rtl" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

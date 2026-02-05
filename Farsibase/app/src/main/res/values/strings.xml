@@ -1,0 +1,2162 @@
+<resources>
+    <string name="app_name">رهنما</string>
+
+    <!--> activity 3 <-->
+    <string name="txtmsg">آیا خانواده شما , در حال حاضر داری خودرو می باشد ؟</string>
+    <string name="yes">داریم</string>
+    <string name="no">نداریم</string>
+    <string name="car">خودروی سواری</string>
+    <string name="truck">خودروی وانت</string>
+    <string name="count">تعداد</string>
+    <string name="chcarno">تا به حال خودرو نداشته ایم</string>
+    <string name="chcaryes">در حال حاظر خودرو نداریم</string>
+    <string name="btncheck3">مرحله بعد</string>
+
+    <!--> activity 2 <-->
+    <string name="nameandfamily2">نام و نام خانوادگی تصمیم گیرنده</string>
+    <string name="telnum2">شماره تماس الزامی</string>
+    <string name="address2">آدرس</string>
+
+    <!--> activity last <-->
+    <string name="msg8">کدام یک از عوامل زیر بیشترین تاثیر را در عدم تمایل شما به خرید خودرو نو و تعویض خودرو فعلی دارد ؟</string>
+    <string-array name="qt8">
+        <item>عدم امکان تامين نقدينگی لازم برای خريد خودرو نو</item>
+        <item>عدم توانايي پرداخت اقساط در روشهای فروش فعلی</item>
+        <item>هزينه پايين نگهداری خودروی فعلی</item>
+        <item> رضایت از خودرو فعلی</item>
+        <item>عدم وجود خودروی مناسب با سطح بودجه و توان خرید من</item>
+        <item>مناسب نبودن شرايط فروش اقساطی</item>
+        <item>مناسب نبودن شرايط طرح جايگزينی خودروهای فرسوده</item>
+    </string-array>
+    <string name="otherlast8">سایر موارد</string>
+    <string name="msgothers8">لطفا ذکر شود.</string>
+
+    <!--> activity6<-->
+
+    <string name="question6">آیا در طول یکسال گذشته قصد خرید خودرو را داشته اید ؟</string>
+    <string name="f1s6_radiobutton1">بله داشتم و خریداری کردم</string>
+    <string name="f1s6_radiobutton2">بله داشتم و نخریدم </string>
+    <string name="f1s6_radiobutton3">نداشتم و خریدم</string>
+    <string name="f1s6_msg">قصد خرید چه خودرویی را داشتید ؟</string>
+
+    <string-array name="f1_spinner"></string-array>
+
+    <string-array name="f1_spinner1">
+        <item>بنر</item>
+        <item>مرسدس</item>
+        <item>آئودی</item>
+        <item>نیسان</item>
+        <item>ولوو</item>
+    </string-array>
+
+
+    <string-array name="f1_spinner2">
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+    </string-array>
+
+    <string-array name="f1_spinner3">
+        <item>پیکان</item>
+        <item>پیکان</item>
+        <item>پیکان</item>
+        <item>پیکان</item>
+        <item>پیکان</item>
+    </string-array>
+
+    <string name="f1s6_txt">مارک</string>
+    <string name="f1s6_txt2">مدل</string>
+    <string name="f1s6_txt3">تیپ</string>
+    <string name="f1s6_txt4">نو</string>
+    <string name="f1s6_txt5">دست دوم</string>
+
+
+    <string-array name="f1_spinner4">
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+    </string-array>
+    <string-array name="f1_spinner5">
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+    </string-array>
+    <string-array name="f1_spinner6">
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+    </string-array>
+
+
+    <string name="f1s6_txt8">چه زمانی ؟</string>
+    <string name="f1s6_txt9">بهای خرید ؟</string>
+
+
+    <!--> 8 <-->
+    <string name="f1s7text">آیا خانواده شما قصد خرید یا تعویض خودرو در آینده را دارد ؟ (حداکثر دو خودرو با الویت بالاتر خرید و دارای نوع متفاوت در نظر گرفته شوند)</string>
+    <string-array name="f1s7v1">
+        <item>تا شش ماه آینده</item>
+        <item>بین شش ماه تا یکسال آینده</item>
+        <item>بین یک تا دو سال اینده</item>
+        <item>بیش از دو سال اینده</item>
+        <item>اصلا قصد ندارم</item>
+    </string-array>
+
+    <string-array name="f1s7v2">
+        <item>سواری</item>
+        <item>وانت</item>
+        <item>ون</item>
+        <item>سایر موارد</item>
+    </string-array>
+
+    <string-array name="f1s7v4">
+        <item>نو</item>
+        <item>دست دوم</item>
+    </string-array>
+
+    <string-array name="f1s7v6">
+        <item>نقدی</item>
+        <item>اقساطی</item>
+    </string-array>
+
+
+    <!--> activity 8 <-->
+
+    <string-array name="f1s8v1">
+        <item>عدم امکان تامين نقدينگی لازم برای خريد خودرو نو</item>
+        <item>عدم توانايي پرداخت اقساط در روشهای فروش فعلی</item>
+        <item>هزينه پايين نگهداری خودروی فعلی</item>
+        <item> رضایت از خودرو فعلی</item>
+        <item>عدم وجود خودروی مناسب با سطح بودجه و توان خرید من</item>
+        <item>مناسب نبودن شرايط فروش اقساطی</item>
+        <item>مناسب نبودن شرايط طرح جايگزينی خودروهای فرسوده</item>
+        <item>سایر موارد</item>
+    </string-array>
+
+    <!--> activity 9 <-->
+
+    <string-array name="f1s9v1">
+        <item>کاهش ميزان پرداخت نقدی در روش خرید اقساطی</item>
+        <item>افزايش دوره بازپرداخت اقساط </item>
+        <item>کاهش نرخ بهره تسهيلات دريافتی</item>
+        <item>تسهيل شرايط دريافت وام (ارائه سفته به جای ضامن يا چک)</item>
+        <item> ورود خودروهای جديد به بازار</item>
+        <item>ساير (لطفا ذکر شود)</item>
+    </string-array>
+
+    <!--> activity 10 <-->
+
+    <string-array name="f1s10v1">
+        <item>دوره بازپرداخت اقساط2 ساله ، ميزان پرداخت نقدی 30%</item>
+        <item>دوره بازپرداخت اقساط3 ساله ، ميزان پرداخت نقدی 40% </item>
+        <item>دوره بازپرداخت اقساط4 ساله ، ميزان پرداخت نقدی 50%</item>
+    </string-array>
+
+    <!--> activity 11 <-->
+
+    <string-array name="f1s11v1">
+        <item> تعويض خودروی فعلی با خودروی نو</item>
+        <item> تعويض خودروی فعلی با خودروی دست دوم کم کارکرد از بازار آزاد</item>
+        <item> تعويض خودروی فعلی با خودروی دست دوم کم کارکرد از شرکت های خودروساز(خودرو دست دوم با گارانتی محدود/6 ماهه)</item>
+        <item> تحت هيچ شرايطي تمايل به تعويض خودروی فعلی ندارم.</item>
+    </string-array>
+
+
+
+
+    <!--> activity <-->
+    <string-array name="f1s4v1">
+        <item>سواری</item>
+        <item>وانت</item>
+        <item>ون</item>
+        <item>سایر</item>
+    </string-array>
+
+    <string-array name="brand">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>آئودی</item>
+        <item>هیوندا</item>
+    </string-array>
+
+    <string-array name="model">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>آئودی</item>
+        <item>هیوندا</item>
+    </string-array>
+    <string-array name="tip">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>آئودی</item>
+        <item>هیوندا</item>
+    </string-array>
+    <string-array name="fuel">
+        <item>لطفا انتخاب کنید.</item>
+        <item>بنزینی</item>
+        <item>بنزین و گاز</item>
+        <item>گازوئیل</item>
+        <item>هیبریدی</item>
+        <item>برقی</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>لطفا انتخاب کنید.</item>
+        <item>دستی</item>
+        <item>اتوماتیک</item>
+    </string-array>
+
+
+    <string-array name="qt5">
+        <item>کمتر از 300 هزار تومان</item>
+        <item>بين 300 تا 500 هزار تومان</item>
+        <item>بين 500 هزار تومان تا يک ميليون تومان</item>
+        <item>بيشتر از يک ميليون تومان، لطفا ميزان هزينه ذکر شود</item>
+    </string-array>
+
+
+    <string-array name="cit">
+        <item>استان تهران</item>
+        <item>استان اصفهان</item>
+        <item>استان خراسان رضوی</item>
+        <item>استان فارس</item>
+        <item>استان آذربایجان شرقی</item>
+        <item>استان خوزستان</item>
+        <item>استان گیلان</item>
+        <item>استان کرمان</item>
+        <item>استان همدان</item>
+        <item>استان کرمانشاه</item>
+        <item>استان بوشهر</item>
+        <item>استان مازنداران</item>
+    </string-array>
+
+    <string-array name="city"></string-array>
+
+    <string-array name="city0">
+        <item>تهران</item>
+    </string-array>
+    <string-array name="city1">
+        <item>اصفهان</item>
+    </string-array>
+    <string-array name="city2">
+        <item>مشهد</item>
+    </string-array>
+    <string-array name="city3">
+        <item>شیراز</item>
+    </string-array>
+    <string-array name="city4">
+        <item>تبریز</item>
+    </string-array>
+    <string-array name="city5">
+        <item>اهواز</item>
+    </string-array>
+    <string-array name="city6">
+        <item>رشت</item>
+    </string-array>
+    <string-array name="city7">
+        <item>کرمان</item>
+    </string-array>
+    <string-array name="city8">
+        <item>همدان</item>
+    </string-array>
+    <string-array name="city9">
+        <item>کرمانشاه</item>
+    </string-array>
+    <string-array name="city10">
+        <item>بوشهر</item>
+    </string-array>
+    <string-array name="city11">
+        <item>ساری</item>
+    </string-array>
+
+
+    <string-array name="state"></string-array>
+
+
+    <string-array name="state1">
+        <item>شهرضا</item>
+    </string-array>
+    <string-array name="state2">
+        <item>نیشابور</item>
+    </string-array>
+    <string-array name="state3">
+        <item>فسا</item>
+    </string-array>
+    <string-array name="state4">
+        <item>مراغه</item>
+    </string-array>
+    <string-array name="state5">
+        <item>دزفول</item>
+    </string-array>
+    <string-array name="state6">
+        <item>انزلی</item>
+    </string-array>
+    <string-array name="state7">
+        <item>بم</item>
+    </string-array>
+    <string-array name="state8">
+        <item>ملایر</item>
+    </string-array>
+    <string-array name="state9">
+        <item>اسلام آباد غرب</item>
+    </string-array>
+    <string-array name="state10">
+        <item>دشتستان</item>
+    </string-array>
+    <string-array name="state11">
+        <item>نوشهر</item>
+    </string-array>
+
+
+    <string-array name="company">
+        <item>ایران خودرو</item>
+        <item>سایپا</item>
+        <item>پارس خودرو</item>
+        <item>کرمان خودرو</item>
+        <item>کارمانیا</item>
+        <item>گروه بهمن</item>
+        <item>مدیران خودرو</item>
+        <item>ام‌جی پارس</item>
+        <item>آسام موتور</item>
+        <item>اطلس خودرو</item>
+        <item>نگین خودرو</item>
+        <item>ایرتویا</item>
+        <item>ستاره ایران</item>
+        <item>معین خودرو</item>
+        <item>پرشیا خودرو</item>
+        <item>جهان نوین آریا</item>
+        <item>رامک خودرو</item>
+        <item>مدیا موتور</item>
+        <item>آلفا موتور</item>
+        <item>آرتا تک موتور</item>
+        <item>افرا موتور</item>
+        <item>گلرنگ موتور فامیلی</item>
+        <item>آرین موتور</item>
+    </string-array>
+
+    <string-array name="company_vanet">
+        <item>ایران خودرو</item>
+        <item>سایپا</item>
+        <item>زامیاد</item>
+        <item>پارس خودرو</item>
+        <item>گروه بهمن</item>
+    </string-array>
+
+    <string-array name="tiy">
+        <item>ایکو</item>
+        <item>رنو</item>
+        <item>فوتون</item>
+    </string-array>
+    <string-array name="tiy_1">
+        <item>سایپا</item>
+    </string-array>
+    <string-array name="tiy_2">
+        <item>زامیاد</item>
+    </string-array>
+    <string-array name="tiy_3">
+        <item>دانگ فنگ</item>
+    </string-array>
+    <string-array name="tiy_4">
+        <item>بهمن</item>
+        <item>کاپرا</item>
+    </string-array>
+    <string-array name="th">
+        <item>وانت آریسان دوگانه‌ سوز</item>
+    </string-array>
+    <string-array name="th_1">
+        <item>رنو تندر پیکاپ</item>
+    </string-array>
+
+    <string-array name="tip32">
+        <item>وانت فوتون دوکابین فوتون دیزلی</item>
+        <item>وانت فوتون دوکابین فوتون بنزینی</item>
+    </string-array>
+    <string-array name="tip33">
+        <item>پراید 151 SE</item>
+    </string-array>
+    <string-array name="tip44">
+        <item>وانت زامیاد 24</item>
+        <item>وانت زامیاد 24 گازسوز</item>
+        <item>وانت زامیاد 24 دیزل</item>
+        <item>وانت پادرا انژکتوری PE6</item>
+    </string-array>
+    <string-array name="tip55">
+        <item>وانت کارا 2000 - تک کابین</item>
+        <item>وانت کارا 2000 - دو کابین </item>
+        <item>وانت کاپرا2 دوکابین . دو دیفرانسیل</item>
+    </string-array>
+
+    <string-array name="t_1">
+        <item>23,335,050</item>
+        <item>31,570,950</item>
+    </string-array>
+    <string-array name="t_2">
+        <item>30,239,600</item>
+        <item>40,912,400</item>
+    </string-array>
+    <string-array name="t_3">
+        <item>96,900,000</item>
+        <item>131,100,000</item>
+    </string-array>
+    <string-array name="t_4">
+        <item>80,750,000</item>
+        <item>109,250,000</item>
+    </string-array>
+    <string-array name="t__1">
+        <item>17,266,900</item>
+    </string-array>
+    <string-array name="t___1">
+        <item>27,715,950</item>
+        <item>37,498,050</item>
+    </string-array>
+    <string-array name="t___2">
+        <item>30,678,200</item>
+        <item>41,505,800</item>
+    </string-array>
+    <string-array name="t___3">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="t___4">
+        <item>36,441,200</item>
+        <item>49,302,800</item>
+    </string-array>
+    <string-array name="t____1">
+        <item>58,468,100</item>
+        <item>79,103,900</item>
+    </string-array>
+    <string-array name="t_____1">
+        <item>29,265,500</item>
+        <item>39,594,500</item>
+    </string-array>
+    <string-array name="t_____2">
+        <item>31,815,500</item>
+        <item>43,044,500</item>
+    </string-array>
+    <string-array name="t_____3">
+        <item>61,455,000</item>
+        <item>83,145,000</item>
+    </string-array>
+
+    <string-array name="temp_brand"></string-array>
+    <string-array name="brand_1">
+        <item>ایکو</item>
+        <item>پژو</item>
+        <item>دانگ فنگ</item>
+        <item>رنو</item>
+        <item>سوزوکی</item>
+        <item>هایما</item>
+    </string-array>
+
+    <string-array name="brand_2">
+        <item>کیا</item>
+        <item>سایپا</item>
+        <item>زوتیه</item>
+        <item>چانگان</item>
+        <item>سیتروئن</item>
+    </string-array>
+    <string-array name="brand_3">
+        <item>برلیانس</item>
+        <item>رنو</item>
+
+    </string-array>
+    <string-array name="brand_4">
+        <item>جیلی</item>
+        <item>لیفان</item>
+        <item>جک</item>
+        <item>هیوندای</item>
+    </string-array>
+    <string-array name="brand_5">
+        <item>بی‌ وای دی</item>
+    </string-array>
+    <string-array name="brand_6">
+        <item>مزدا</item>
+        <item>بسترن</item>
+    </string-array>
+    <string-array name="brand_7">
+        <item>چری</item>
+    </string-array>
+    <string-array name="brand_8">
+        <item>ام جی</item>
+    </string-array>
+    <string-array name="brand_9">
+        <item>هیوندایی</item>
+    </string-array>
+    <string-array name="brand_10">
+        <item>کیا</item>
+    </string-array>
+    <string-array name="brand_11">
+        <item>رنو</item>
+    </string-array>
+    <string-array name="brand_12">
+        <item>تویوتا</item>
+        <item>لکسوس</item>
+    </string-array>
+    <string-array name="brand_13">
+        <item>مرسدس بنز</item>
+    </string-array>
+    <string-array name="brand_14">
+        <item>پورشه</item>
+    </string-array>
+    <string-array name="brand_15">
+        <item>بی ام و</item>
+    </string-array>
+    <string-array name="brand_16">
+        <item>نیسان</item>
+    </string-array>
+    <string-array name="brand_17">
+        <item>سانگ‌یانگ</item>
+    </string-array>
+    <string-array name="brand_18">
+        <item>ام جی</item>
+    </string-array>
+    <string-array name="brand_19">
+        <item>آلفارومئو</item>
+    </string-array>
+    <string-array name="brand_20">
+        <item>مازراتی</item>
+    </string-array>
+    <string-array name="brand_21">
+        <item>ولوو</item>
+    </string-array>
+    <string-array name="brand_22">
+        <item>هوندا</item>
+    </string-array>
+    <string-array name="brand_23">
+        <item>میتسوبیشی</item>
+        <item>سئات</item>
+        <item>دی اس</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="tip_1">
+        <item>سمند SE</item>
+        <item>سمند LX</item>
+        <item>سمند EF7</item>
+        <item>سمند EF7 ( مالتی پلکس )</item>
+        <item>سمند EF7 . دوگانه سوز</item>
+        <item>سمند سورن ELX سال</item>
+        <item>سمند سورن ELX توربو </item>
+        <item>سمند سورن ELX جدید توربو</item>
+        <item>دنا با موتور EF7</item>
+        <item>دنا پلاس با موتور EF7</item>
+        <item>رانا LX</item>
+    </string-array>
+
+    <string-array name="tip_2">
+        <item>	مدل	پژو GLX 405 	</item>
+        <item>	مدل	پژو GLX 405 دوگانه سوز 	</item>
+        <item>	مدل	پژو SLX 405 	</item>
+        <item>	مدل	پژو پارس سال 	</item>
+        <item>	مدل	پژو پارس سال . دوگانه سوز	</item>
+        <item>	مدل	پژو پارس LX 	</item>
+        <item>	مدل	پژو پارس LX 	</item>
+        <item>	مدل	پژو پارس اتوماتیک . ELX	</item>
+        <item>	مدل	پژو 207 جدید	</item>
+        <item>	مدل	پژو 207 جدید . اتوماتیک	</item>
+        <item>	مدل	پژو 206 . تیپ 2 	</item>
+        <item>	مدل	پژو 206 . تیپ 5 	</item>
+        <item>	مدل	پژو 206 صندوقدار V8 	</item>
+        <item>	مدل	پژو 2008	</item>
+        <item>	مدل	پژو 508	</item>
+    </string-array>
+
+    <string-array name="tip_3">
+        <item>دانگ فنگ H30 Cross اتوماتیک</item>
+    </string-array>
+    <string-array name="tip_4">
+        <item>رنو تندر 90</item>
+        <item>رنو تندر 90 اتوماتیک</item>
+        <item>رنو تندر پلاس دنده‌ای</item>
+        <item>رنو تندر پلاس اتوماتیک</item>
+        <item>رنو کپچر 2017</item>
+    </string-array>
+    <string-array name="tip_5">
+        <item>سوزوکی ویتارا دنده‌ای کلاس 9</item>
+        <item>سوزوکی ویتارا اتومات کلاس 9</item>
+        <item>سوزوکی ویتارا اتومات - کلاس 10</item>
+    </string-array>
+    <string-array name="tip_6">
+        <item>هایما اس 7 ( S7 ) . فول دنده‌ای</item>
+        <item>هایما اس 7 ( S7 ) . فول اتوماتیک</item>
+        <item>هایما اس 7 توربو ( S7 ) . فول اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip__1">
+        <item>پراید 111 SE ( سفید )</item>
+        <item>پراید 111 SE ( تنوع رنگ )</item>
+        <item>پراید SE 131 ( سفید )</item>
+        <item>پراید SE 131 ( تنوع رنگ )</item>
+        <item>پراید 132 SE ( سفید )</item>
+        <item>پراید 132 SE ( تنوع رنگ )</item>
+        <item>کیا سراتو 1600 - دنده ای</item>
+        <item>کیا سراتو 1600 - دنده ای</item>
+        <item>کیا سراتو 1600 - دنده ای (آپشنال)</item>
+        <item>کیا سراتو 2000 - اتوماتیک</item>
+        <item>کیا سراتو 2000 - اتوماتیک (آپشنال)</item>
+    </string-array>
+    <string-array name="tip__2">
+        <item>تیبا SX ( رنگ سفید )</item>
+        <item>تیبا SX ( تنوع رنگ )</item>
+        <item>تیبا SX . دوگانه‌سوز ( سفید )</item>
+        <item>تیبا SX . دوگانه‌سوز ( تنوع رنگ )</item>
+        <item>تیبا 2 - هاچ بک SX ( سفید )</item>
+        <item>تیبا 2 - هاچ بک SX ( تنوع رنگ )</item>
+        <item>تیبا 2 - هاچ بک EX ( سفید ) </item>
+        <item>تیبا 2 - هاچ بک EX ( تنوع رنگ ) </item>
+        <item>ساینا SX</item>
+        <item>ساینا EX (سفید)</item>
+        <item>ساینا EX (تنوع رنگ)</item>
+        <item>کوییک دنده ای</item>
+        <item>کوییک اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip__3">
+        <item>آریو 1500 ( دنده دستی )</item>
+        <item>آریو 1600 ( دنده دستی ) </item>
+        <item>آریو 1600 ( اتوماتیک )</item>
+    </string-array>
+    <string-array name="tip__4">
+        <item>چانگان CS35 (مونتاژ) - دنده‌ای</item>
+        <item>چانگان CS35 (مونتاژ) - اتوماتیک</item>
+    </string-array>
+    <string-array name="tip__5">
+        <item>سیتروئن C4</item>
+        <item>سیتروئن C6</item>
+    </string-array>
+
+    <string-array name="tip___1">
+        <item>برلیانس H220 دنده‌ای</item>
+        <item>برلیانس H220 اتوماتیک</item>
+        <item>برلیانس H230 دنده‌ای</item>
+        <item>برلیانس H230 اتوماتیک</item>
+        <item>برلیانس H320 دنده‌ای</item>
+        <item>برلیانس H320 اتوماتیک</item>
+        <item>برلیانس H330 دنده‌ای</item>
+        <item>برلیانس H330 اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip___2">
+        <item>رنو تندر 90</item>
+        <item>رنو پارس تندر</item>
+        <item>رنو ساندرو - دنده‌ای</item>
+        <item>رنو ساندرو - اتوماتیک</item>
+        <item>رنو ساندرو استپ‌وی - دنده‌ای</item>
+        <item>رنو ساندرو استپ‌وی - اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip____1">
+        <item>جیلی GC6 اتوماتیک</item>
+    </string-array>
+    <string-array name="tip____2">
+        <item>لیفان X50 - دنده ای</item>
+        <item>لیفان X50 - اتوماتیک</item>
+        <item>لیفان X60 دنده ای</item>
+        <item>لیفان X60 - اتوماتیک</item>
+        <item>لیفان 820</item>
+    </string-array>
+    <string-array name="tip____3">
+        <item>جک J5 دنده ای</item>
+        <item>جک J5 اتوماتیک</item>
+        <item>جک S3 اتوماتیک</item>
+        <item>جک S5 دنده ای</item>
+        <item>جک S5 اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip____4">
+        <item>هیوندای I10 جدید</item>
+        <item>هیوندای I20 جدید</item>
+        <item>هیوندای النترا 2.0</item>
+        <item>هیوندای سوناتا LF</item>
+        <item>هیوندای توسان TL</item>
+        <item>هیوندای سانتافه DM</item>
+    </string-array>
+
+    <string-array name="tip_____1">
+        <item>بی‌ وای دی S6 - اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip______1">
+        <item>مزدا3 . تیپ 4 صندوق دار</item>
+    </string-array>
+    <string-array name="tip______2">
+        <item>بسترن آسا B50F</item>
+    </string-array>
+
+    <string-array name="tip_______1">
+        <item>MVM 110 S / کامفورت</item>
+        <item>MVM 110 S / لاکچری</item>
+        <item>MVM 550 دنده ای</item>
+        <item>MVM 550 دنده ای (Luxury)</item>
+        <item>MVM 550 اتوماتیک</item>
+        <item>MVM 550 اتوماتیک (Luxury)</item>
+        <item>MVM 315 هاچ‌بک . اسپورت</item>
+        <item>MVM 315 هاچ‌بک . اسپورت (Luxury)</item>
+        <item>MVM 315 هاچ بک</item>
+        <item>MVM 315 صندوقدار</item>
+        <item>ام وی ام X22 - دنده ای</item>
+        <item>ام وی ام X22 - دنده ای (اسپورت)</item>
+        <item>ام وی ام X22 - اتوماتیک</item>
+        <item>ام وی ام X22 - اتوماتیک (اسپورت)</item>
+        <item>ام وی ام X33 S</item>
+        <item>ام وی ام X33 S اسپورت</item>
+        <item>چری آریزو 5 (دنده‌ای)</item>
+        <item>چری آریزو 5 (Luxury)</item>
+        <item>چری آریزو 5 (Excellent)</item>
+        <item>چری تیگو 5 جدید (Luxury)</item>
+        <item>چری تیگو 5 جدید (Luxury Sport)</item>
+        <item>چری تیگو 5 جدید (Excellent)</item>
+        <item>چری تیگو 7 (Luxury)</item>
+        <item>چری تیگو 7 (Excellent)</item>
+
+    </string-array>
+
+    <string-array name="tip________1">
+        <item>ام‌جی 360 دنده‌ای</item>
+        <item>ام‌جی 360 اتوماتیک</item>
+    </string-array>
+
+    <string-array name="tip_________1">
+        <item>هیوندای I20 تیپ 6</item>
+        <item>هیوندای اکسنت دوایربگ 2017</item>
+        <item>هیوندای اکسنت 2017 فول / Blue</item>
+        <item>هیوندای ولستر . 6 ایربگ 2016</item>
+        <item>هیوندای النترا 2.0 نیوفیس دوایربگ 2017</item>
+        <item>هیوندای النترا 2.0 نیوفیس فول 2017</item>
+        <item>هیوندای I40 . صندوقدار</item>
+        <item>هیوندای سوناتا LF . فول کامل با رادار 2016</item>
+        <item>هیوندای سوناتا LF . فول کامل با رادار 2017</item>
+        <item>هیوندای سوناتا LF هیبرید GL</item>
+        <item>هیوندای سوناتا LF هیبرید GLS</item>
+        <item>هیوندای سوناتا LF هیبرید GLS پلاس</item>
+        <item>هیوندای توسان 2017 - لو آپشن</item>
+        <item>هیوندای توسان 2017 - فول نیوفیس</item>
+        <item>هیوندای توسان 2017 - فول نیوفیس + اتوپارک</item>
+        <item>هیوندای سانتافه . دوایربگ نیوفیس . 2017</item>
+        <item>هیوندای سانتافه . فول نیوفیس . اتوپارک 2017</item>
+    </string-array>
+
+    <string-array name="tip__________1">
+        <item>کیا پیکانتو 2017</item>
+        <item>کیا ریو صندوقدار 2017</item>
+        <item>کیا ریو هاچ بک - فول 2017</item>
+        <item>کیا سراتو 2.0 - لوآپشن 2017</item>
+        <item>کیا سراتو 2.0 - فول 2017</item>
+        <item>کیا سراتو کوپه 2.0 - 2017</item>
+        <item>کیا کارنز</item>
+        <item>کیا اسپورتیج فول 2017 نیوفیس QL</item>
+        <item>کیا اپتیما JF فول 2017 - اتاق جدید GT</item>
+        <item>کیا اپتیما JF فول 2017 - اتاق جدید GT + رادار</item>
+        <item>کیا اپتیما JF فول 2017 - هیبرید</item>
+        <item>کیا سورنتو اتاق جدید 2.4 فول</item>
+        <item>کیا سورنتو اتاق جدید 2.4 فول GT</item>
+    </string-array>
+
+    <string-array name="tip___________1">
+        <item>رنو سیمبل PE مدل 2017</item>
+        <item>رنو داستر تک دیفرانسیل 2017</item>
+        <item>رنو داستر PE دو دیفرانسیل 2017</item>
+        <item>رنو داستر SE دو دیفرانسیل 2017</item>
+        <item>رنو تلیسمان E2</item>
+        <item>رنو تلیسمان E3</item>
+        <item>رنو کولئوس 2017</item>
+        <item>رنو کولئوس 2018</item>
+    </string-array>
+
+    <string-array name="tip____________1">
+        <item>تویوتا CH-R بنزینی توربو</item>
+        <item>تویوتا CH-R هیبریدی 1.8</item>
+        <item>تویوتا یاریس هاچ‌بک 2016</item>
+        <item>تویوتا یاریس صندوقدار - 2016</item>
+        <item>تویوتا پریوس 2017 نیمه‌فول</item>
+        <item>تویوتا پریوس 2017 فول</item>
+        <item>تویوتا پریوس 2017 + سانروف</item>
+        <item>تویوتا کرولا XLI X فول 2016</item>
+        <item>تویوتا کرولا GLI فول 2016</item>
+        <item>تویوتا راو 4 نیوفیس 2017 نیمه‌فول</item>
+        <item>تویوتا راو 4 نیوفیس 2017 فول</item>
+        <item>تویوتا هایلوکس 2016 / دنده‌ای اتاق جدید</item>
+        <item>تویوتا هایلوکس 2016 / اتوماتیک اتاق جدید</item>
+        <item>تویوتا کمری هیبرید LE مدل 2016</item>
+        <item>تویوتا کمری هیبرید XLE مدل 2016</item>
+        <item>لکسوس NX200 T سه کلید</item>
+    </string-array>
+    <string-array name="tip____________2">
+        <item>لکسوس NX200 T هفت کلید</item>
+        <item>لکسوس NX200 T هفت کلید - F اسپورت</item>
+        <item>لکسوس NX200 T هفت کلید - F اسپورت 2017</item>
+        <item>لکسوس NX300 H سه کلید</item>
+        <item>لکسوس NX300 H شش کلید 2017</item>
+        <item>لکسوس NX300 H هفت کلید 2017</item>
+        <item>لکسوس RX200T . فول 2017</item>
+        <item>لکسوس CT200 H هیبریدی - فول 2016</item>
+    </string-array>
+
+    <string-array name="tip_____________1">
+        <item>بنز CLA200 فول 2016</item>
+        <item>بنز CLA45 فول 2016</item>
+        <item>بنز CLA45 فول 2017</item>
+        <item>بنز GLA45 فول 2016 </item>
+        <item>بنز GLA45 فول 2017 </item>
+        <item>بنز C200 فول - اتاق جدید 2016</item>
+        <item>بنز E200 مدل 2016</item>
+        <item>بنز E200 نیوفیس 2017</item>
+        <item>بنز E250 فول مدل 2016</item>
+        <item>بنز E250 نیوفیس 2017</item>
+    </string-array>
+
+    <string-array name="tip______________1">
+        <item>پورشه باکستر 2.0</item>
+        <item>پورشه باکستر S</item>
+        <item>پورشه ماکان 2.0</item>
+        <item>پورشه ماکان 2.0 توربو</item>
+    </string-array>
+    <string-array name="tip_______________1">
+        <item>بی‌ام و I8 فول - 2015</item>
+        <item>بی‌ام و I8 فول - 2016 </item>
+        <item>بی‌ام و 120 هاچ‌بک (Premium)</item>
+        <item>بی‌ام و 120 هاچ‌بک (Innovation)</item>
+        <item>بی‌ام و 220I کوپه</item>
+        <item>بی‌ام و 218 اکتیو تور 2016</item>
+        <item>بی‌ام و 218 اکتیو تور 2017</item>
+        <item>بی‌ام و 530 تیپ Premier 28E</item>
+        <item>بی‌ام و 530 تیپ Premier Sport</item>
+        <item>بی‌ام و 530 تیپ Frontier</item>
+        <item>بی‌ام و 530 تیپ Frontier Sport</item>
+        <item>بی‌ام و 530 تیپ Superior 28E</item>
+        <item>بی‌ام و 530 تیپ Superior Sport</item>
+        <item>بی‌ام و 730LI تیپ Essential</item>
+        <item>بی‌ام و 730LI تیپ Essential Individual</item>
+        <item>بی‌ام و 730LI تیپ Essential Sport Indivi</item>
+        <item>بی‌ام و 730LI تیپ Prestige</item>
+        <item>بی‌ام و 730LI تیپ Diamond+</item>
+        <item>بی‌ام و 730LI تیپ Elegant Individual</item>
+        <item>بی‌ام و 730LI تیپ Master Class Enhanced </item>
+        <item>بی‌ام و 730LI تیپ Executive Lounge Enhanced</item>
+        <item>بی‌ام و 730LI تیپ Sensation Enhanced </item>
+        <item>بی‌ام و 730LI تیپ Sensation Enhanced Lounge </item>
+        <item>بی‌ام و X1 مدل 25I تیپ Progressive</item>
+        <item>بی‌ام و X1 مدل 25I تیپ Convenience</item>
+        <item>بی‌ام و X1 مدل 25I تیپ Premium</item>
+        <item>بی‌ام و X1 مدل 25I تیپ Innovation</item>
+        <item>بی‌ام و X3 مدل 28I تیپ Ultimate</item>
+        <item>بی‌ام و X3 مدل 28I تیپ Exclusive</item>
+        <item>بی‌ام و X3 مدل 28I تیپ Business</item>
+        <item>بی‌ام و X4 مدل 28I تیپ Comfort</item>
+        <item>بی‌ام و X3 مدل 28I تیپ Dynamic</item>
+        <item>بی‌ام و X4 مدل 28I تیپ Dynamic</item>
+        <item>بی‌ام و X4 مدل 28I تیپ Exclusive</item>
+    </string-array>
+    <string-array name="tip________________1">
+        <item>نیسان جوک - اسکای پک 2017</item>
+        <item>نیسان جوک - پلاتینیوم 2017</item>
+        <item>نیسان جوک - اسپورت 2017</item>
+        <item>نیسان ایکس-تریل 2017</item>
+    </string-array>
+    <string-array name="tip_________________1">
+        <item>سانگ‌یانگ تیولی ( اسپرت )</item>
+        <item>سانگ‌یانگ تیولی ( الیت )</item>
+        <item>سانگ‌یانگ تیولی 2017</item>
+        <item>سانگ‌یانگ کوراندو 2017</item>
+        <item>سانگ‌یانگ کوراندو 2017 پرمیوم پلاس</item>
+    </string-array>
+    <string-array name="tip__________________1">
+        <item>ام جی GT</item>
+        <item>ام جی 6 . اتاق جدید 2016</item>
+        <item>ام جی GS مدل 2017</item>
+    </string-array>
+    <string-array name="tip___________________1">
+        <item>آلفارومئو 4C . فول 2015</item>
+        <item>آلفارومئو 4C . فول 2016</item>
+        <item>آلفارومئو جولیتا . فول 2016</item>
+        <item>آلفارومئو جولیتا . فول 2017</item>
+    </string-array>
+    <string-array name="tip____________________1">
+        <item>مازراتی گیبلی - کامل ترین آپشن 2015</item>
+        <item>مازراتی کواتروپورته 2015</item>
+    </string-array>
+    <string-array name="tip_____________________1">
+        <item>ولوو C70 کروک 2016</item>
+        <item>ولوو V40 R-Design</item>
+        <item>ولوو XC90 - R-Design مدل 2017</item>
+        <item>ولوو XC90 - Inscription مدل 2017</item>
+    </string-array>
+    <string-array name="tip______________________1">
+        <item>هوندا آکورد تیپ EXL</item>
+        <item>هوندا CRV تیپ EXL / ساخت کانادا</item>
+    </string-array>
+    <string-array name="tip_______________________1">
+        <item>میتسوبیشی میراژ 2017</item>
+        <item>میتسوبیشی لنسر 1.8 - تیپ 4 مدل 2017</item>
+        <item>میتسوبیشی ASX فول 2017 </item>
+        <item>میتسوبیشی اوتلندر 2017 . اتاق جدید - تیپ 3</item>
+        <item>میتسوبیشی اوتلندر 2017 . اتاق جدید - تیپ 5</item>
+    </string-array>
+    <string-array name="tip_______________________2">
+        <item>سئات لئون</item>
+        <item>سئات لئون</item>
+    </string-array>
+    <string-array name="tip_______________________3">
+        <item>دی اس DS3 مدل 2017</item>
+        <item>دی اس DS4 کراس‌بک 2017</item>
+        <item>دی‌اس 5LS مدل 2017</item>
+        <item>دی‌اس DS6 مدل 2016</item>
+        <item>دی‌اس DS6 مدل 2017</item>
+        <item>دی‌اس DS5 مدل 2015</item>
+        <item>دی‌اس DS5 مدل 2017</item>
+    </string-array>
+
+    <!--ico-->
+    <string-array name="m1">
+        <item>23,878,200</item>
+        <item>32,305,800</item>
+    </string-array>
+    <string-array name="m2">
+        <item>26,209,750</item>
+        <item>35,460,250</item>
+    </string-array>
+    <string-array name="m3">
+        <item>26,774,150</item>
+        <item>36,223,850</item>
+    </string-array>
+    <string-array name="m4">
+        <item>27,020,650</item>
+        <item>36,557,350</item>
+    </string-array>
+    <string-array name="m5">
+        <item>28,612,700</item>
+        <item>38,711,300</item>
+    </string-array>
+    <string-array name="m6">
+        <item>31,825,700</item>
+        <item>43,058,300</item>
+    </string-array>
+    <string-array name="m7">
+        <item>32,373,950</item>
+        <item>43,800,050</item>
+    </string-array>
+    <string-array name="m8">
+        <item>32,974,050</item>
+        <item>44,611,950</item>
+    </string-array>
+    <string-array name="m9">
+        <item>36,278,000</item>
+        <item>49,082,000</item>
+    </string-array>
+
+    <string-array name="m10">
+        <item>40,766,000</item>
+        <item>55,154,000</item>
+    </string-array>
+    <string-array name="m11">
+        <item>29,319,050</item>
+        <item>39,666,950</item>
+    </string-array>
+
+
+    <!--pejo-->
+
+    <string-array name="m_1">
+        <item>25,140,450</item>
+        <item>34,013,550</item>
+    </string-array>
+    <string-array name="m_2">
+        <item>26,518,300</item>
+        <item>35,877,700</item>
+    </string-array>
+    <string-array name="m_3">
+        <item>26,673,850</item>
+        <item>36,088,150</item>
+    </string-array>
+    <string-array name="m_4">
+        <item>31,058,150</item>
+        <item>42,019,850</item>
+    </string-array>
+    <string-array name="m_5">
+        <item>32,151,250</item>
+        <item>43,498,750</item>
+    </string-array>
+    <string-array name="m_6">
+        <item>32,008,450</item>
+        <item>43,305,550</item>
+    </string-array>
+
+    <string-array name="m_7">
+        <item>32,151,250</item>
+        <item>43,498,750</item>
+    </string-array>
+
+    <string-array name="m_8">
+        <item>38,530,500</item>
+        <item>52,129,500</item>
+    </string-array>
+    <string-array name="m_9">
+        <item>35,743,350</item>
+        <item>48,358,650</item>
+    </string-array>
+
+    <string-array name="m_10">
+        <item>39,977,115</item>
+        <item>54,086,685</item>
+    </string-array>
+
+    <string-array name="m_11">
+        <item>27,883,400</item>
+        <item>37,724,600</item>
+    </string-array>
+
+    <string-array name="m_12">
+        <item>32,300,000</item>
+        <item>43,700,000</item>
+    </string-array>
+    <string-array name="m_13">
+        <item>33,021,650</item>
+        <item>44,676,350</item>
+    </string-array>
+    <string-array name="m_14">
+        <item>84,065,000</item>
+        <item>113,735,000</item>
+    </string-array>
+    <string-array name="m_15">
+        <item>152,150,000</item>
+        <item>205,850,000</item>
+    </string-array>
+
+
+    <!--dongfeng-->
+    <string-array name="m__1">
+        <item>38,616,350</item>
+        <item>52,245,650</item>
+    </string-array>
+
+    <!--reno-->
+    <string-array name="m___1">
+        <item>38,616,350</item>
+        <item>52,245,650</item>
+    </string-array>
+
+    <string-array name="m___2">
+        <item>32,870,350</item>
+        <item>44,471,650</item>
+    </string-array>
+    <string-array name="m___3">
+        <item>40,361,400</item>
+        <item>54,606,600</item>
+    </string-array>
+    <string-array name="m___4">
+        <item>34,536,350</item>
+        <item>46,725,650</item>
+    </string-array>
+    <string-array name="m___5">
+        <item>40,911,350</item>
+        <item>55,350,650</item>
+    </string-array>
+    <string-array name="m___6">
+        <item>93,483,850</item>
+        <item>126,478,150</item>
+    </string-array>
+
+    <!--sozoki-->
+    <string-array name="m____1">
+        <item>109,791,100</item>
+        <item>148,540,900</item>
+    </string-array>
+    <string-array name="m____2">
+        <item>115,079,800</item>
+        <item>155,696,200</item>
+    </string-array>
+    <string-array name="m____3">
+        <item>124,933,850</item>
+        <item>169,028,150</item>
+    </string-array>
+
+    <!--hayma-->
+    <string-array name="m_____1">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="m_____2">
+        <item>67,266,450</item>
+        <item>91,007,550</item>
+    </string-array>
+    <string-array name="m_____3">
+        <item>80,733,850</item>
+        <item>109,228,150</item>
+    </string-array>
+
+
+    <!--kiya-->
+    <string-array name="m______1">
+        <item>17,868,700</item>
+        <item>24,175,300</item>
+    </string-array>
+    <string-array name="m______2">
+        <item>18,089,700</item>
+        <item>24,474,300</item>
+    </string-array>
+    <string-array name="m______3">
+        <item>17,673,200</item>
+        <item>23,910,800</item>
+    </string-array>
+    <string-array name="m______4">
+        <item>17,894,200</item>
+        <item>24,209,800</item>
+    </string-array>
+    <string-array name="m______5">
+        <item>17,588,200</item>
+        <item>23,795,800</item>
+    </string-array>
+    <string-array name="m______6">
+        <item>17,809,200</item>
+        <item>24,094,800</item>
+    </string-array>
+    <string-array name="m______7">
+        <item>64,547,300</item>
+        <item>87,328,700</item>
+    </string-array>
+    <string-array name="m______8">
+        <item>69,157,700</item>
+        <item>93,566,300</item>
+    </string-array>
+    <string-array name="m______9">
+        <item>77,416,300</item>
+        <item>104,739,700</item>
+    </string-array>
+    <string-array name="m______10">
+        <item>84,227,350</item>
+        <item>113,954,650</item>
+    </string-array>
+
+
+    <string-array name="j1">
+        <item>21,222,800</item>
+        <item>28,713,200</item>
+    </string-array>
+    <string-array name="j2">
+        <item>21,443,800</item>
+        <item>29,012,200</item>
+    </string-array>
+    <string-array name="j3">
+        <item>22,497,800</item>
+        <item>30,438,200</item>
+    </string-array>
+    <string-array name="j4">
+        <item>22,718,800</item>
+        <item>30,737,200</item>
+    </string-array>
+    <string-array name="j5">
+        <item>23,339,300</item>
+        <item>31,576,700</item>
+    </string-array>
+    <string-array name="j6">
+        <item>23,560,300</item>
+        <item>31,875,700</item>
+    </string-array>
+    <string-array name="j7">
+        <item>23,339,300</item>
+        <item>31,576,700</item>
+    </string-array>
+    <string-array name="j9">
+        <item>23,560,300</item>
+        <item>31,875,700</item>
+    </string-array>
+    <string-array name="j10">
+        <item>22,822,500</item>
+        <item>30,877,500</item>
+    </string-array>
+    <string-array name="j11">
+        <item>23,704,800</item>
+        <item>32,071,200</item>
+    </string-array>
+
+    <string-array name="j12">
+        <item>23,925,800</item>
+        <item>32,370,200</item>
+    </string-array>
+
+    <string-array name="j13">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="j14">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <!--saiypa-->
+
+
+    <string-array name="m_______1">
+        <item>21,222,800</item>
+        <item>28,713,200</item>
+    </string-array>
+    <string-array name="m_______2">
+        <item>21,443,800</item>
+        <item>29,012,200</item>
+    </string-array>
+    <string-array name="m_______3">
+        <item>22,497,800</item>
+        <item>30,438,200</item>
+    </string-array>
+    <string-array name="m_______4">
+        <item>22,718,800</item>
+        <item>30,737,200</item>
+    </string-array>
+    <string-array name="m_______5">
+        <item>23,339,300</item>
+        <item>31,576,700</item>
+    </string-array>
+    <string-array name="m_______6">
+        <item>23,560,300</item>
+        <item>31,875,700</item>
+    </string-array>
+    <string-array name="m_______7">
+        <item>23,339,300</item>
+        <item>31,576,700</item>
+    </string-array>
+    <string-array name="m_______8">
+        <item>23,560,300</item>
+        <item>31,875,700</item>
+    </string-array>
+    <string-array name="m_______9">
+        <item>22,822,500</item>
+        <item>30,877,500</item>
+    </string-array>
+    <string-array name="m_______10">
+        <item>23,704,800</item>
+        <item>32,071,200</item>
+    </string-array>
+    <string-array name="m_______11">
+        <item>23,925,800</item>
+        <item>32,370,200</item>
+    </string-array>
+    <string-array name="m_______12">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="m_______13">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="m_______14">
+        <item>40,483,800</item>
+        <item>54,772,200</item>
+    </string-array>
+    <string-array name="m_______15">
+        <item>41,333,800</item>
+        <item>55,922,200</item>
+    </string-array>
+
+    <string-array name="m_______16">
+        <item>48,235,800</item>
+        <item>65,260,200</item>
+    </string-array>
+
+
+    <!--zotia-->
+    <string-array name="m________1">
+        <item>40,483,800</item>
+        <item>54,772,200</item>
+    </string-array>
+    <string-array name="m________2">
+        <item>41,333,800</item>
+        <item>55,922,200</item>
+    </string-array>
+    <string-array name="m________3">
+        <item>48,235,800</item>
+        <item>65,260,200</item>
+    </string-array>
+
+
+    <!--changan-->
+    <string-array name="m_________1">
+        <item>47,695,200</item>
+        <item>64,528,800</item>
+    </string-array>
+
+    <string-array name="m_________2">
+        <item>56,091,500</item>
+        <item>75,888,500</item>
+    </string-array>
+
+    <!--citroen-->
+    <string-array name="m__________1">
+        <item>119,000,000</item>
+        <item>161,000,000</item>
+    </string-array>
+    <string-array name="m__________2">
+        <item>187,000,000</item>
+        <item>253,000,000</item>
+    </string-array>
+
+    <!--berliance-->
+    <string-array name="m___________1">
+        <item>33,229,900</item>
+        <item>44,958,100</item>
+    </string-array>
+    <string-array name="m___________2">
+        <item>37,862,400</item>
+        <item>51,225,600</item>
+    </string-array>
+    <string-array name="m___________3">
+        <item>33,229,900</item>
+        <item>44,958,100</item>
+    </string-array>
+    <string-array name="m___________4">
+        <item>37,862,400</item>
+        <item>51,225,600</item>
+    </string-array>
+    <string-array name="m___________5">
+        <item>39,404,300</item>
+        <item>53,311,700</item>
+    </string-array>
+    <string-array name="m___________6">
+        <item>44,082,700</item>
+        <item>59,641,300</item>
+    </string-array>
+    <string-array name="m___________7">
+        <item>37,857,300</item>
+        <item>51,218,700</item>
+    </string-array>
+    <string-array name="m___________8">
+        <item>46,194,100</item>
+        <item>62,497,900</item>
+    </string-array>
+
+
+    <!--parskhodroreno -->
+    <string-array name="m____________1">
+        <item>32,897,550</item>
+        <item>44,508,450</item>
+    </string-array>
+    <string-array name="m____________2">
+        <item>34,537,200</item>
+        <item>46,726,800</item>
+    </string-array>
+    <string-array name="m____________3">
+        <item>36,726,800</item>
+        <item>49,689,200</item>
+    </string-array>
+    <string-array name="m____________4">
+        <item>41,826,800</item>
+        <item>56,589,200</item>
+    </string-array>
+    <string-array name="m____________5">
+        <item>40,964,900</item>
+        <item>55,423,100</item>
+    </string-array>
+    <string-array name="m____________6">
+        <item>46,037,700</item>
+        <item>62,286,300</item>
+    </string-array>
+    <!--gili-->
+    <string-array name="m_____________1">
+        <item>40,630,000</item>
+        <item>54,970,000</item>
+        <!--lifan-->
+    </string-array>
+    <string-array name="m______________1">
+        <item>41,692,500</item>
+        <item>56,407,500</item>
+    </string-array>
+    <string-array name="m______________2">
+        <item>47,642,500</item>
+        <item>64,457,500</item>
+    </string-array>
+    <string-array name="m______________3">
+        <item>52,241,000</item>
+        <item>70,679,000</item>
+    </string-array>
+    <string-array name="m______________4">
+        <item>58,012,500</item>
+        <item>78,487,500</item>
+    </string-array>
+    <string-array name="m______________5">
+        <item>77,477,500</item>
+        <item>104,822,500</item>
+    </string-array>
+    <!--jack-->
+    <string-array name="m_______________1">
+        <item>47,047,500</item>
+        <item>63,652,500</item>
+    </string-array>
+    <string-array name="m_______________2">
+        <item>53,592,500</item>
+        <item>72,507,500</item>
+    </string-array>
+    <string-array name="m_______________3">
+        <item>61,115,000</item>
+        <item>82,685,000</item>
+    </string-array>
+    <string-array name="m_______________4">
+        <item>71,867,500</item>
+        <item>97,232,500</item>
+    </string-array>
+    <string-array name="m_______________5">
+        <item>82,322,500</item>
+        <item>111,377,500</item>
+    </string-array>
+
+    <string-array name="m________________1">
+        <item>61,242,500</item>
+        <item>82,857,500</item>
+    </string-array>
+    <string-array name="m________________2">
+        <item>73,992,500</item>
+        <item>100,107,500</item>
+    </string-array>
+    <string-array name="m________________3">
+        <item>115,515,000</item>
+        <item>156,285,000</item>
+    </string-array>
+
+    <string-array name="m_________________1">
+        <item>83,895,000</item>
+        <item>113,505,000</item>
+    </string-array>
+
+    <string-array name="m__________________1">
+        <item>100,351,000</item>
+        <item>135,769,000</item>
+    </string-array>
+    <string-array name="m__________________2">
+        <item>65,450,000</item>
+        <item>88,550,000</item>
+    </string-array>
+
+    <string-array name="m___________________1">
+        <item>27,200,000</item>
+        <item>36,800,000</item>
+    </string-array>
+    <string-array name="m___________________2">
+        <item>29,325,000</item>
+        <item>39,675,000</item>
+    </string-array>
+    <string-array name="m___________________3">
+        <item>45,442,700</item>
+        <item>61,481,300</item>
+    </string-array>
+    <string-array name="m___________________4">
+        <item>48,025,000</item>
+        <item>64,975,000</item>
+    </string-array>
+    <string-array name="m___________________5">
+        <item>52,035,300</item>
+        <item>70,400,700</item>
+    </string-array>
+    <string-array name="m___________________6">
+        <item>54,910,000</item>
+        <item>74,290,000</item>
+    </string-array>
+    <string-array name="m___________________7">
+        <item>38,250,000</item>
+        <item>51,750,000</item>
+    </string-array>
+    <string-array name="m___________________8">
+        <item>39,695,000</item>
+        <item>53,705,000</item>
+    </string-array>
+    <string-array name="m___________________9">
+        <item>39,270,000</item>
+        <item>53,130,000</item>
+    </string-array>
+    <string-array name="m___________________10">
+        <item>39,270,000</item>
+        <item>53,130,000</item>
+    </string-array>
+    <string-array name="m___________________11">
+        <item>48,790,000</item>
+        <item>66,010,000</item>
+    </string-array>
+    <string-array name="m___________________12">
+        <item>50,065,000</item>
+        <item>67,735,000</item>
+    </string-array>
+    <string-array name="m___________________13">
+        <item>55,590,000</item>
+        <item>75,210,000</item>
+    </string-array>
+    <string-array name="m___________________14">
+        <item>56,865,000</item>
+        <item>76,935,000</item>
+    </string-array>
+    <string-array name="m___________________15">
+        <item>65,960,000</item>
+        <item>89,240,000</item>
+    </string-array>
+    <string-array name="m___________________16">
+        <item>67,660,000</item>
+        <item>91,540,000</item>
+    </string-array>
+    <string-array name="m___________________17">
+        <item>55,420,000</item>
+        <item>74,980,000</item>
+    </string-array>
+    <string-array name="m___________________18">
+        <item>60,860,000</item>
+        <item>82,340,000</item>
+    </string-array>
+    <string-array name="m___________________19">
+        <item>66,045,000</item>
+        <item>89,355,000</item>
+    </string-array>
+    <string-array name="m___________________20">
+        <item>81,090,000</item>
+        <item>109,710,000</item>
+    </string-array>
+    <string-array name="m___________________21">
+        <item>81,940,000</item>
+        <item>110,860,000</item>
+    </string-array>
+    <string-array name="m___________________22">
+        <item>86,190,000</item>
+        <item>116,610,000</item>
+    </string-array>
+    <string-array name="m___________________23">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="m___________________24">
+        <item>109,650,000</item>
+        <item>148,350,000</item>
+    </string-array>
+    <string-array name="m____________________1">
+        <item>45,050,000</item>
+        <item>60,950,000</item>
+    </string-array>
+    <string-array name="m____________________2">
+        <item>52,700,000</item>
+        <item>71,300,000</item>
+    </string-array>
+
+    <string-array name="m_____________________1">
+        <item>75,650,000</item>
+        <item>102,350,000</item>
+    </string-array>
+    <string-array name="m_____________________2">
+        <item>88,400,000</item>
+        <item>119,600,000</item>
+    </string-array>
+    <string-array name="m_____________________3">
+        <item>95,200,000</item>
+        <item>128,800,000</item>
+    </string-array>
+    <string-array name="m_____________________4">
+        <item>105,830,950</item>
+        <item>143,183,050</item>
+    </string-array>
+
+    <string-array name="m_____________________5">
+        <item>111,350,000</item>
+        <item>150,650,000</item>
+    </string-array>
+    <string-array name="m_____________________6">
+        <item>125,142,100</item>
+        <item>169,309,900</item>
+    </string-array>
+    <string-array name="m_____________________7">
+        <item>147,333,900</item>
+        <item>199,334,100</item>
+    </string-array>
+    <string-array name="m_____________________8">
+        <item>161,109,000</item>
+        <item>217,971,000</item>
+    </string-array>
+    <string-array name="m_____________________9">
+        <item>159,800,000</item>
+        <item>216,200,000</item>
+    </string-array>
+    <string-array name="m_____________________10">
+        <item>124,100,000</item>
+        <item>167,900,000</item>
+    </string-array>
+    <string-array name="m_____________________11">
+        <item>136,850,000</item>
+        <item>185,150,000</item>
+    </string-array>
+    <string-array name="m_____________________12">
+        <item>137,069,300</item>
+        <item>185,446,700</item>
+    </string-array>
+    <string-array name="m_____________________13">
+        <item>134,300,000</item>
+        <item>181,700,000</item>
+    </string-array>
+    <string-array name="m_____________________14">
+        <item>154,700,000</item>
+        <item>209,300,000</item>
+    </string-array>
+    <string-array name="m_____________________15">
+        <item>165,707,500</item>
+        <item>224,192,500</item>
+    </string-array>
+    <string-array name="m_____________________16">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="m_____________________17">
+        <item>200,600,000</item>
+        <item>271,400,000</item>
+    </string-array>
+
+    <string-array name="m______________________1">
+        <item>71,825,000</item>
+        <item>97,175,000</item>
+    </string-array>
+    <string-array name="m______________________2">
+        <item>93,372,500</item>
+        <item>126,327,500</item>
+    </string-array>
+    <string-array name="m______________________3">
+        <item>93,372,500</item>
+        <item>126,327,500</item>
+    </string-array>
+    <string-array name="m______________________4">
+        <item>107,950,000</item>
+        <item>146,050,000</item>
+    </string-array>
+    <string-array name="m______________________5">
+        <item>123,315,450</item>
+        <item>166,838,550</item>
+    </string-array>
+    <string-array name="m______________________6">
+        <item>115,036,450</item>
+        <item>155,637,550</item>
+    </string-array>
+    <string-array name="m______________________7">
+        <item>142,686,100</item>
+        <item>193,045,900</item>
+    </string-array>
+    <string-array name="m______________________8">
+        <item>169,357,400</item>
+        <item>229,130,600</item>
+    </string-array>
+    <string-array name="m______________________9">
+        <item>157,250,000</item>
+        <item>212,750,000</item>
+    </string-array>
+
+    <string-array name="m______________________10">
+        <item>165,750,000</item>
+        <item>224,250,000</item>
+    </string-array>
+    <string-array name="m______________________11">
+        <item>147,050,000</item>
+        <item>198,950,000</item>
+    </string-array>
+    <string-array name="m______________________12">
+        <item>191,250,000</item>
+        <item>258,750,000</item>
+    </string-array>
+    <string-array name="m______________________13">
+        <item>201,151,650</item>
+        <item>272,146,350</item>
+    </string-array>
+
+    <string-array name="m_______________________1">
+        <item>67,575,000</item>
+        <item>91,425,000</item>
+    </string-array>
+    <string-array name="m_______________________2">
+        <item>94,350,000</item>
+        <item>127,650,000</item>
+    </string-array>
+
+    <string-array name="m_______________________3">
+        <item>96,900,000</item>
+        <item>131,100,000</item>
+    </string-array>
+    <string-array name="m_______________________4">
+        <item>105,400,000</item>
+        <item>142,600,000</item>
+    </string-array>
+    <string-array name="m_______________________5">
+        <item>150,450,000</item>
+        <item>203,550,000</item>
+    </string-array>
+    <string-array name="m_______________________6">
+        <item>164,050,000</item>
+        <item>221,950,000</item>
+    </string-array>
+    <string-array name="m_______________________7">
+        <item>169,575,000</item>
+        <item>229,425,000</item>
+    </string-array>
+    <string-array name="m_______________________8">
+        <item>185,300,000</item>
+        <item>250,700,000</item>
+    </string-array>
+
+    <string-array name="m________________________1">
+        <item>146,965,000</item>
+        <item>198,835,000</item>
+    </string-array>
+    <string-array name="m________________________2">
+        <item>146,965,000</item>
+        <item>198,835,000</item>
+    </string-array>
+    <string-array name="m________________________3">
+        <item>107,100,000</item>
+        <item>144,900,000</item>
+    </string-array>
+    <string-array name="m________________________4">
+        <item>107,100,000</item>
+        <item>144,900,000</item>
+    </string-array>
+    <string-array name="m________________________5">
+        <item>126,650,000</item>
+        <item>171,350,000</item>
+    </string-array>
+    <string-array name="m________________________6">
+        <item>137,700,000</item>
+        <item>186,300,000</item>
+    </string-array>
+    <string-array name="m________________________7">
+        <item>151,300,000</item>
+        <item>204,700,000</item>
+    </string-array>
+    <string-array name="m________________________8">
+        <item>132,600,000</item>
+        <item>179,400,000</item>
+    </string-array>
+    <string-array name="m________________________9">
+        <item>134,300,000</item>
+        <item>181,700,000</item>
+    </string-array>
+    <string-array name="m________________________10">
+        <item>198,050,000</item>
+        <item>267,950,000</item>
+    </string-array>
+    <string-array name="m________________________11">
+        <item>219,300,000</item>
+        <item>296,700,000</item>
+    </string-array>
+    <string-array name="m________________________12">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="m________________________13">
+        <item>204,000,000</item>
+        <item>276,000,000</item>
+    </string-array>
+    <string-array name="m________________________14">
+        <item>178,500,000</item>
+        <item>241,500,000</item>
+    </string-array>
+    <string-array name="m________________________15">
+        <item>212,500,000</item>
+        <item>287,500,000</item>
+    </string-array>
+    <string-array name="m________________________16">
+        <item>267,750,000</item>
+        <item>362,250,000</item>
+    </string-array>
+
+
+    <string-array name="m_________________________1">
+        <item>284,750,000</item>
+        <item>385,250,000</item>
+    </string-array>
+    <string-array name="m_________________________2">
+        <item>303,450,000</item>
+        <item>410,550,000</item>
+    </string-array>
+    <string-array name="m_________________________3">
+        <item>338,300,000</item>
+        <item>457,700,000</item>
+    </string-array>
+    <string-array name="m_________________________4">
+        <item>253,300,000</item>
+        <item>342,700,000</item>
+    </string-array>
+    <string-array name="m_________________________5">
+        <item>284,750,000</item>
+        <item>385,250,000</item>
+    </string-array>
+    <string-array name="m_________________________6">
+        <item>290,700,000</item>
+        <item>393,300,000</item>
+    </string-array>
+    <string-array name="m_________________________7">
+        <item>467,500,000</item>
+        <item>632,500,000</item>
+    </string-array>
+    <string-array name="m_________________________8">
+        <item>174,250,000</item>
+        <item>235,750,000</item>
+    </string-array>
+    <string-array name="m__________________________1">
+        <item>552,500,000</item>
+        <item>747,500,000</item>
+    </string-array>
+    <string-array name="m__________________________2">
+        <item>505,750,000</item>
+        <item>684,250,000</item>
+    </string-array>
+    <string-array name="m__________________________3">
+        <item>539,750,000</item>
+        <item>730,250,000</item>
+    </string-array>
+    <string-array name="m__________________________4">
+        <item>552,500,000</item>
+        <item>747,500,000</item>
+    </string-array>
+    <string-array name="m__________________________5">
+        <item>595,000,000</item>
+        <item>805,000,000</item>
+    </string-array>
+    <string-array name="m__________________________6">
+        <item>459,000,000</item>
+        <item>621,000,000</item>
+    </string-array>
+    <string-array name="m__________________________7">
+        <item>382,500,000</item>
+        <item>517,500,000</item>
+    </string-array>
+    <string-array name="m__________________________8">
+        <item>510,000,000</item>
+        <item>690,000,000</item>
+    </string-array>
+    <string-array name="m__________________________9">
+        <item>399,500,000</item>
+        <item>540,500,000</item>
+    </string-array>
+    <string-array name="m__________________________10">
+        <item>578,000,000</item>
+        <item>782,000,000</item>
+    </string-array>
+
+    <string-array name="m___________________________1">
+        <item>450,500,000</item>
+        <item>609,500,000</item>
+    </string-array>
+    <string-array name="m___________________________2">
+        <item>573,750,000</item>
+        <item>776,250,000</item>
+    </string-array>
+    <string-array name="m___________________________3">
+        <item>446,250,000</item>
+        <item>603,750,000</item>
+    </string-array>
+    <string-array name="m___________________________4">
+        <item>565,250,000</item>
+        <item>764,750,000</item>
+    </string-array>
+
+    <string-array name="m____________________________1">
+        <item>765,000,000</item>
+        <item>1,035,000,000</item>
+    </string-array>
+
+    <string-array name="m____________________________2">
+        <item>884,000,000</item>
+        <item>1,196,000,000</item>
+    </string-array>
+    <string-array name="m____________________________3">
+        <item>206,550,000</item>
+        <item>279,450,000</item>
+    </string-array>
+    <string-array name="m____________________________4">
+        <item>215,050,000</item>
+        <item>290,950,000</item>
+    </string-array>
+    <string-array name="m____________________________5">
+        <item>246,415,000</item>
+        <item>333,385,000</item>
+    </string-array>
+    <string-array name="m____________________________6">
+        <item>241,400,000</item>
+        <item>326,600,000</item>
+    </string-array>
+    <string-array name="m____________________________7">
+        <item>249,900,000</item>
+        <item>338,100,000</item>
+    </string-array>
+    <string-array name="m____________________________8">
+        <item>415,650,000</item>
+        <item>562,350,000</item>
+    </string-array>
+    <string-array name="m____________________________9">
+        <item>424,150,000</item>
+        <item>573,850,000</item>
+    </string-array>
+    <string-array name="m____________________________10">
+        <item>441,150,000</item>
+        <item>596,850,000</item>
+    </string-array>
+    <string-array name="m____________________________11">
+        <item>453,900,000</item>
+        <item>614,100,000</item>
+    </string-array>
+    <string-array name="m____________________________12">
+        <item>466,650,000</item>
+        <item>631,350,000</item>
+    </string-array>
+    <string-array name="m____________________________13">
+        <item>479,400,000</item>
+        <item>648,600,000</item>
+    </string-array>
+    <string-array name="m____________________________14">
+        <item>509,150,000</item>
+        <item>688,850,000</item>
+    </string-array>
+    <string-array name="m____________________________15">
+        <item>530,400,000</item>
+        <item>717,600,000</item>
+    </string-array>
+    <string-array name="m____________________________16">
+        <item>538,900,000</item>
+        <item>729,100,000</item>
+    </string-array>
+    <string-array name="m____________________________17">
+        <item>611,150,000</item>
+        <item>826,850,000</item>
+    </string-array>
+    <string-array name="m____________________________18">
+        <item>632,400,000</item>
+        <item>855,600,000</item>
+    </string-array>
+    <string-array name="m____________________________19">
+        <item>645,150,000</item>
+        <item>872,850,000</item>
+    </string-array>
+    <string-array name="m____________________________20">
+        <item>670,650,000</item>
+        <item>907,350,000</item>
+    </string-array>
+    <string-array name="m____________________________21">
+        <item>679,150,000</item>
+        <item>918,850,000</item>
+    </string-array>
+    <string-array name="m____________________________22">
+        <item>690,200,000</item>
+        <item>933,800,000</item>
+    </string-array>
+    <string-array name="m____________________________23">
+        <item>713,150,000</item>
+        <item>964,850,000</item>
+    </string-array>
+    <string-array name="m____________________________24">
+        <item>307,700,000</item>
+        <item>416,300,000</item>
+    </string-array>
+    <string-array name="m____________________________25">
+        <item>311,100,000</item>
+        <item>420,900,000</item>
+    </string-array>
+    <string-array name="m____________________________26">
+        <item>322,150,000</item>
+        <item>435,850,000</item>
+    </string-array>
+    <string-array name="m____________________________27">
+        <item>326,400,000</item>
+        <item>441,600,000</item>
+    </string-array>
+    <string-array name="m____________________________28">
+        <item>364,650,000</item>
+        <item>493,350,000</item>
+    </string-array>
+    <string-array name="m____________________________29">
+        <item>373,150,000</item>
+        <item>504,850,000</item>
+    </string-array>
+    <string-array name="m____________________________30">
+        <item>377,400,000</item>
+        <item>510,600,000</item>
+    </string-array>
+    <string-array name="m____________________________31">
+        <item>402,900,000</item>
+        <item>545,100,000</item>
+    </string-array>
+    <string-array name="m____________________________32">
+        <item>385,900,000</item>
+        <item>522,100,000</item>
+    </string-array>
+    <string-array name="m____________________________33">
+        <item>407,150,000</item>
+        <item>550,850,000</item>
+    </string-array>
+    <string-array name="m____________________________34">
+        <item>415,650,000</item>
+        <item>562,350,000</item>
+    </string-array>
+    <string-array name="m_____________________________1">
+        <item>117,300,000</item>
+        <item>158,700,000</item>
+    </string-array>
+    <string-array name="m_____________________________2">
+        <item>126,650,000</item>
+        <item>171,350,000</item>
+    </string-array>
+    <string-array name="m_____________________________3">
+        <item>154,700,000</item>
+        <item>209,300,000</item>
+    </string-array>
+    <string-array name="m_____________________________4">
+        <item>210,800,000</item>
+        <item>285,200,000</item>
+    </string-array>
+    <string-array name="m______________________________1">
+        <item>93,500,000</item>
+        <item>126,500,000</item>
+    </string-array>
+    <string-array name="m______________________________2">
+        <item>93,500,000</item>
+        <item>126,500,000</item>
+    </string-array>
+    <string-array name="m______________________________3">
+        <item>92,557,350</item>
+        <item>125,224,650</item>
+    </string-array>
+    <string-array name="m______________________________4">
+        <item>126,467,250</item>
+        <item>171,102,750</item>
+    </string-array>
+    <string-array name="m______________________________5">
+        <item>134,342,500</item>
+        <item>181,757,500</item>
+    </string-array>
+
+    <string-array name="m_______________________________1">
+        <item>97,750,000</item>
+        <item>132,250,000</item>
+    </string-array>
+    <string-array name="m_______________________________2">
+        <item>116,450,000</item>
+        <item>157,550,000</item>
+    </string-array>
+    <string-array name="m_______________________________3">
+        <item>146,200,000</item>
+        <item>197,800,000</item>
+    </string-array>
+    <string-array name="m________________________________1">
+        <item>459,000,000</item>
+        <item>621,000,000</item>
+    </string-array>
+    <string-array name="m________________________________2">
+        <item>493,000,000</item>
+        <item>667,000,000</item>
+    </string-array>
+    <string-array name="m________________________________3">
+        <item>142,375,000</item>
+        <item>192,625,000</item>
+    </string-array>
+    <string-array name="m________________________________4">
+        <item>149,175,000</item>
+        <item>201,825,000</item>
+    </string-array>
+
+    <string-array name="m_________________________________1">
+        <item>1,572,500,000</item>
+        <item>2,127,500,000</item>
+    </string-array>
+    <string-array name="m_________________________________2">
+        <item>1,640,500,000</item>
+        <item>2,219,500,000</item>
+    </string-array>
+    <string-array name="m__________________________________1">
+        <item>229,500,000</item>
+        <item>310,500,000</item>
+    </string-array>
+    <string-array name="m__________________________________2">
+        <item>220,405,000</item>
+        <item>298,195,000</item>
+    </string-array>
+    <string-array name="m__________________________________3">
+        <item>425,000,000</item>
+        <item>575,000,000</item>
+    </string-array>
+    <string-array name="m__________________________________4">
+        <item>488,750,000</item>
+        <item>661,250,000</item>
+    </string-array>
+    <string-array name="m___________________________________1">
+        <item>200,600,000</item>
+        <item>271,400,000</item>
+    </string-array>
+    <string-array name="m___________________________________2">
+        <item>203,915,000</item>
+        <item>275,885,000</item>
+    </string-array>
+    <string-array name="m____________________________________1">
+        <item>70,465,000</item>
+        <item>95,335,000</item>
+    </string-array>
+    <string-array name="m____________________________________2">
+        <item>118,830,000</item>
+        <item>160,770,000</item>
+    </string-array>
+    <string-array name="m____________________________________3">
+        <item>152,575,000</item>
+        <item>206,425,000</item>
+    </string-array>
+    <string-array name="m____________________________________4">
+        <item>180,115,000</item>
+        <item>243,685,000</item>
+    </string-array>
+    <string-array name="m____________________________________5">
+        <item>193,290,000</item>
+        <item>261,510,000</item>
+    </string-array>
+
+
+    <string-array name="m_____________________________________1">
+        <item>130,985,000</item>
+        <item>177,215,000</item>
+    </string-array>
+    <string-array name="m_____________________________________2">
+        <item>114,240,000</item>
+        <item>154,560,000</item>
+    </string-array>
+
+
+    <string-array name="m______________________________________1">
+        <item>118,660,000</item>
+        <item>160,540,000</item>
+    </string-array>
+    <string-array name="m______________________________________2">
+        <item>159,375,000</item>
+        <item>215,625,000</item>
+    </string-array>
+    <string-array name="m______________________________________3">
+        <item>165,410,000</item>
+        <item>223,790,000</item>
+    </string-array>
+    <string-array name="m______________________________________4">
+        <item>187,000,000</item>
+        <item>253,000,000</item>
+    </string-array>
+    <string-array name="m______________________________________5">
+        <item>201,620,000</item>
+        <item>272,780,000</item>
+    </string-array>
+    <string-array name="m______________________________________6">
+        <item>175,950,000</item>
+        <item>238,050,000</item>
+    </string-array>
+    <string-array name="m______________________________________7">
+        <item>195,160,000</item>
+        <item>264,040,000</item>
+    </string-array>
+
+
+    <string-array name="F2S22_1">
+        <!--amalkard motor va girbox-->
+        <item>قدرت و کشش  بالاي موتور</item>
+        <item>شتاب گيري خوب خودرو ( سبقت راحت)</item>
+        <item>سرعت زياد</item>
+        <item>حجم موتوربالا</item>
+        <item>سهولت تعویض دنده</item>
+        <item>تکنولوژي جديد (موتور و گیربکس)</item>
+    </string-array>
+
+</resources>

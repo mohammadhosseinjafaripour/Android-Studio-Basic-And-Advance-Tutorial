@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form0._start_01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+
+            <Spinner
+                style="@style/spinner_style"
+                android:id="@+id/state"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.55"
+                android:background="#dadada"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/statetv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="نام استان" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+            <Spinner
+                style="@style/spinner_style"
+                android:id="@+id/city"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.55"
+                android:background="#dadada"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart" />
+            <TextView
+                android:id="@+id/citytv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="نام شهر"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+            <Spinner
+                style="@style/spinner_style"
+                android:id="@+id/village"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.55"
+                android:background="#dadada"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/villagetv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="نام روستا"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+            <EditText
+                android:id="@+id/zone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:inputType="number"
+                android:layout_weight="0.55"
+                android:maxLength="2"
+                android:background="#dadada"
+                android:layoutDirection="rtl"
+                android:paddingRight="6dp" />
+
+            <TextView
+                android:id="@+id/zonetv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="منطقه شهرداری"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+
+            <EditText
+                android:id="@+id/area"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:maxLength="2"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.55"
+                android:background="#dadada"
+                android:layoutDirection="rtl"
+                android:paddingRight="6dp" />
+            <TextView
+                android:id="@+id/areatv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="شماره حوزه"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+
+            <EditText
+                android:id="@+id/block"
+                android:maxLength="2"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.55"
+                android:background="#dadada"
+                android:layoutDirection="rtl"
+                android:paddingRight="6dp"/>
+            <TextView
+                android:id="@+id/blocktv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="شماره بلوک"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_gravity="start"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.55"
+                android:background="#dadada"
+                android:gravity="right"
+                android:lineSpacingExtra="12dp"
+                android:layoutDirection="rtl"
+                android:paddingRight="6dp" />
+
+            <TextView
+                android:id="@+id/addresstv"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="0.45"
+                android:background="#ed8404"
+                android:gravity="center"
+                android:text="نشانی دقیق محل حوزه"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/f1_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="شروع مصاحبه" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

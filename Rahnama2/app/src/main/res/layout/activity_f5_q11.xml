@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q11">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="11- با توجه به نياز، بودجه خرید و خودروی انتخابی خود، در نظر دارید وانت آينده شما كداميك از گزينه‌هاي زير باشد؟"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/F5S11V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S11V1_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="وانت کفی سبک(قابلیت حمل بار تا حداکثر 800کیلوگرم)" />
+
+                <TextView
+                    style="@style/multiOptionQuestionsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="سایپا 151، آریسان، وانت تندر 90" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S11V1_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="وانت شاسی دار سبک(قابلیت حمل بار تا حداکثر 1000کیلوگرم)" />
+
+                <TextView
+                    style="@style/multiOptionQuestionsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="کارا تک/ دو کابین، مزدا 2000 تک/ دو کابین، وینگل 5، ریچ، کاپرا، فوتون تونلند، هایلوکس، کارو، درکا" />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S11V1_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="وانت شاسی دار سنگین(قابلیت حمل بار بیش از1000کیلوگرم)" />
+
+                <TextView
+                    style="@style/multiOptionQuestionsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="زامیاد Z24، زامیاد Z28، زامیاد پادرا" />
+
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/F5S11V1_4"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="برایم فرق نمی کند شاسی دار باشد یا بدون شاسی" />
+
+                <TextView
+                    style="@style/multiOptionQuestionsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرجله بعد"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

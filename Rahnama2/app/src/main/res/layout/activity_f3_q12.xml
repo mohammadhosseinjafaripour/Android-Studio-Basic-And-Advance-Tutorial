@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form3.F3Q12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form3"
+        />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_all">
+
+    <TextView
+        android:id="@+id/F3S12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/divider"
+        android:layoutDirection="rtl"
+        android:text="12- درآمد تقريبي خانواده شما(مجموع درآمدهاي كل افراد خانواده بدون احتساب يارانه ها) چقدر است؟"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textDirection="rtl" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/F3S12V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:maxLength="8"
+                android:hint="تومان"
+                android:inputType="number"
+                android:minWidth="40dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/convert_F3S12V1"/>
+        </LinearLayout>
+    <RadioGroup
+        android:id="@+id/F3S12V2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/F3S12V2_1"
+            android:hint="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="کمتر از یک میلیون" />
+
+        <RadioButton
+            android:hint="2"
+            android:id="@+id/F3S12V2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از يك ميليون تومان تا 1.5 ميليون تومان" />
+
+        <RadioButton
+            android:hint="3"
+            android:id="@+id/F3S12V2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از 1.5 ميليون تومان تا 2 ميليون تومان" />
+
+        <RadioButton
+            android:hint="4"
+            android:id="@+id/F3S12V2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از 2 ميليون تومان تا 3 ميليون تومان" />
+
+        <RadioButton
+            android:hint="5"
+            android:id="@+id/F3S12V2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از 3 ميليون تومان تا 5 ميليون تومان" />
+
+        <RadioButton
+            android:hint="6"
+            android:id="@+id/F3S12V2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از 5 ميليون تومان تا 7 ميليون تومان" />
+
+        <RadioButton
+            android:hint="7"
+            android:id="@+id/F3S12V2_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از 7 ميليون تومان تا 10 ميليون تومان" />
+
+        <RadioButton
+            android:hint="8"
+            android:id="@+id/F3S12V2_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="از 10 ميليون تومان تا 20 ميليون تومان" />
+
+        <RadioButton
+            android:hint="9"
+            android:id="@+id/F3S12V2_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:text="بيش از 20 ميليون تومان" />
+    </RadioGroup>
+
+
+        <Button
+            android:id="@+id/send"
+            android:text="مرحله بعد"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

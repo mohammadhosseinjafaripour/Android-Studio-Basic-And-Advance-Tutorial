@@ -1,0 +1,4472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form3.F3Q2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F3S2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="2- کدامیک از تجهیزات زیر را با قیمت های اعلام شده، برای خودروی فعلی یا خودرویی که در آینده قصد خرید آنرا دارید، تمایل دارید، انتخاب نمایید."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <TextView
+            style="@style/category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#ed8404"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="تجهیزات ایمنی و حفاظتی" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 200 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv1"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="کیسه هوای جانبی"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+
+                android:text="کیسه هوای تعبیه شده در ستونهای جانبی یا درون صندلی جهت حفاظت از راننده و سرنشین  بهنگام تصادف و ضربه های جانبی"
+                android:textDirection="rtl" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+
+                    <EditText
+                        android:id="@+id/F3S2V2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="3"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V2"/>
+
+                    <CheckBox
+                        android:id="@+id/F3S2V3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 300 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv2"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="کیسه هوای پرده ای"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="کیسه هوا جهت حفاظت از ضربه به سر راننده و سرنشین  بهنگام تصادفکه از بالای خودرو روی شیشه های جانبی باز می-شود"
+                android:textDirection="rtl" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/F3S2V4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+
+                    <EditText
+                        android:id="@+id/F3S2V5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="3"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V5"/>
+
+                    <CheckBox
+                        android:id="@+id/F3S2V6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv3"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="(Emergency Brake Assist) EBA"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="ترمز اضطراری و کمکی که در شرایط اضطراری وارد عمل شده و در توقف خودرو کمک می کند"
+                android:textDirection="rtl" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+
+                    <EditText
+                        android:id="@+id/F3S2V8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:maxLength="3"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V8"/>
+
+                    <CheckBox
+                        android:id="@+id/F3S2V9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 350 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv4"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سيستم پايداري الكترونيكيESP "
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="كنترل پايداري الكترونيكي خودرو به صورت خودكار و سرپيچها که از منحرف شدن خودرو جلوگیری می نماید"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="3"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V11"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 250 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv5"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="EPB(Electric Park Brake)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="ترمز دستی برقی"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V14"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V14"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 150 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv6"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="Hill Start Assist"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سیستم کنترل ایستایی خودرو در سربالایی وبرای شروع حرکت (ضد عقب گرد) که مانع از عقب رفتن خودرو به هنگام شروع حرکت در سربالایی می¬شود"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V17"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V17"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 150 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv7"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="Hill Descent Assist"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سیستم کنترل سرعت در سراشیبی که مانع از سرعت گرفتن بیش از اندازه خودرو در سراشیبی میشود"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V20"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V20"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 150 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv8"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="TCS (Traction Control System)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سیستم کنترل رانش و کشش (ضد هرزگردی) هنگام پیچیدن و حرکت روی سطوح لغزنده به ویژه در شرایط آب و هوای بارانی و برفی و نیز جاده‌های خاکی که پایداری خودرو را فراهم می¬کند"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V23"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V23"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 300 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv9"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="دوربين ديد عقب بهمراه سیستم کمک پارک و مانیتور نمایش"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سیستم نمایش محیط عقب خودرو بهمراه نمایش خطوط راهنما در مانیتور جهت جلوگیری از برخورد با مانع هنگام دنده عقب و پارک خودرو"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V26"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V26"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 150 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv10"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سيستم تشخيص پنچري خودرو (TPMS)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="اخطار دهنده کاهش فشار باد لاستيک"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V29"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V29"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv11"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سنسور سپر جلو"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سنسورهایی نصب شده بر سپر جلو جهت هشدار به راننده برای جلوگیری از برخورد با مانع"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V32"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V32"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv12"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="برف پاک کن اتوماتیک(سنسور باران)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="برف پاک¬کن خودکار که با خیس شدن شیشه بطور خودکار شروع به کار می¬کند"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V35"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V35"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text=" 150 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv13"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="Anti trap + power window"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="شيشه بالابر حساس به ضربه + بسته شدن خودکار شیشه¬های خودرو"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V38"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V38"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#ed8404"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="قوای محرکه" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="3 میلیون تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv14"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="گيربكس اتوماتيكAMT"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="گیربکس Automated Manual Transmission"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V41"
+                        android:layout_width="match_parent"
+                        android:maxLength="4"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V41"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="5 میلیون تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv15"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="گيربكس اتوماتيكAT  + تیپ ترونیک"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="گیربکس اتوماتیک 4 سرعته با قابلیت تعویض دستی"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V44"
+                        android:layout_width="match_parent"
+                        android:maxLength="4"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V44"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="6 میلیون تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv16"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="گيربكس اتوماتيكDCT  + تیپ ترونیک"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="گیربکس اتوماتیک دو کلاچه 5 یا 6 سرعته با قابلیت تعویض دستی"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V47"
+                        android:layout_width="match_parent"
+                        android:maxLength="4"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V47"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="6 میلیون تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv17"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="گيربكس اتوماتيكCVT + تیپ ترونیک"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="گیربکس اتوماتیک ضریب متغییر با قابلیت تعویض دستی"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V50"
+                        android:layout_width="match_parent"
+                        android:maxLength="4"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V50"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="4 میلیون تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv18"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="4WD– سیستم 4چرخ متحرک یا دو دیفرانسیل"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="فقط برای خودروهای SUV پرسیده شود"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V53"
+                        android:layout_width="match_parent"
+                        android:maxLength="4"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V53"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#ed8404"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="تزئینات داخلی" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="1 میلیون و 500 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv19"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="تودوزي چرمي(رو دري، صندلي، فرمان، ترمز دستي، دسته دنده)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <!--charm tabiee-->
+
+                <TextView
+                    style="@style/equipmentDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="چرم طبیعی"
+                    android:textDirection="rtl" />
+
+
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:maxLength="4"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V56"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <!--charm masnuee-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="6dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/equipmentTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:background="@color/divider"
+                        android:gravity="right|center_vertical"
+                        android:layoutDirection="rtl"
+                        android:text="چرم مصنوعی"
+                        android:textColor="@color/black" />
+                    <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="500 هزارتومان"
+                    android:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V59"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V59"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#ed8404"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="تجهیزات خارجی و لاستیک" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="80 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv20"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="آئينه‌هاي جانبی تاشوی برقي"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="2 عدد"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V62"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V62"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V63"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="400 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv21"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="رينگ اسپرت و آلومينيومي"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="4 عدد"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V65"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V65"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#ed8404"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="چراغ و روشنایی" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="200 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv22"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="چراغهاي جلو با قابليت چرخش در پيچها "
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="(AFS) چراغهای جلو با چرخش خودرو در پیچها، می چرخند تا محوطه بیشتری از مسیر روشن شود "
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V67"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V68"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V68"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V69"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv23"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="چراغ حساس به نور (چراغ اتوماتيک)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="Auto light /سنسور نور، که با توجه به کم شدن میزان نور محیط، به طور خودکارچراغ¬های خودرو را روشن می¬نماید. "
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V70"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V71"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V71"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V72"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="60 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv24"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="چراغ روشن کننده کنار خودرو"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="Side Foot Lamp"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V73"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V74"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V74"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V75"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="80 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv25"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="Day Light"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="چراغ LED روشن شونده در روز/ چراغ روشنایی در روز"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V76"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V77"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V77"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V78"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/category"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#ed8404"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="تجهیزات و امکانات رفاهی" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="80 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv26"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سيستم تهويه اتوماتيك(قابليت تنظيم دما به صورت خودکار)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <!--tak mantaghe ee-->
+                <TextView
+                    style="@style/equipmentDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="تک منطقه ای"
+                    android:textDirection="rtl" />
+
+
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V79"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V80"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V80"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <!--do mantaghe ee-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="6dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/equipmentTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:background="@color/divider"
+                        android:gravity="right|center_vertical"
+                        android:layoutDirection="rtl"
+                        android:text="دو منطقه ای"
+                        android:textColor="@color/black" />
+
+
+                    <TextView
+                        style="@style/equipmentPrice"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:background="#06df32"
+                        android:gravity="center"
+                        android:text="80 هزار تومان"
+                        android:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="دو منطقه ای: امکان تنظیم دو دمای متفاوت در دو قسمت از خودرو(راننده/سرنشین و یا جلو/عقب خودرو)"
+                    android:textDirection="rtl" />
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V82"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V83"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V83"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V84"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="800 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv27"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="صندلي‌ راننده و سرنشین قابل تنظيم برقي+ حافظه"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="(6 حرکته) امکان تنظیم برقی صندلی در شش جهت + دارای حافظه برای استفاده از تنظیم¬های قبلی اعمال شده"
+                android:textDirection="rtl" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V85"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V86"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V86"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V87"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="300 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv28"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="خنک کننده و گرمکن صندليهاي جلو"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="2 عدد"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V88"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V89"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V89"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="180 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv29"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="کروز کنترل ( ثابت کننده سرعت)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سيستم تثبيت کننده سرعت در سرعتهاي مختلف بنا به نياز راننده"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V91"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V92"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V92"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V93"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="250 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv30"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سوئيچ استارت (Keyless Entry) و استارت دکمه اي"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="سيستم ورود به خودرو و استارت  بدون کليد"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V94"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V95"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:maxLength="3"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V95"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V96"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="450 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv31"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سیستم مولتی مدیا بهمراه مانیتور لمسی 7 اینچ"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text=""
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V97"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V98"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V98"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V99"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv32"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سيستم مکان ياب جغرافيايي (GPS)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="نمایش موقعيت جغرافيايي خودرو در لحظه"
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V101"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V101"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V102"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="400 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv33"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="فرمان برقی"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="نصب فرمان الکتریکی بجای فرمان هیدورلیکی که باعث عملكرد بهتر فرمان و حفظ تعادل خودرو در چرخش¬ها، بهبود مصرف سوخت و منجر به فرمان پذيري آسانتر به خصوص هنگام پارك خودرو ميشود"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V103"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V104"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V104"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V105"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv34"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="E-Call &amp; Roadside Assist"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="امکان برقراری تماس از طریق خودرو با مراکز امداد و نجات و امداد خودرو در شرایط بحرانی و وقوع حادثه"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V106"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V107"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V107"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V108"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="200 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv35"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="اینترنت داخل خودرو"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="با قابلیت نصب نرم افزار و دانلود فیلم و موزیک درون مولتی مدیا"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V109"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V110"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V110"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="200 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv36"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="Mirror Link"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="قابلیت نمایش صفحه موبایل بر روی نمایشگر مولتی مدیا"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V112"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V113"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V113"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V114"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="80 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv37"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="شيشه‌هاي ضد اشعه‌هاي مضر (UV)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text="Solar Glass"
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V115"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V116"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V116"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V117"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="100 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv38"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="شیشه های رنگی یا دودی"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text=""
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V118"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V119"
+                        android:layout_width="match_parent"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V119"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V120"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="80 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv39"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="ریموت کنترل ضبط روی فرمان (MFC)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text=""
+                android:textDirection="rtl" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V121"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V122"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:maxLength="3"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V122"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V123"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="1 میلیون و 300 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv40"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سقف بازشو  (Sunroof)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text=""
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V124"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V125"
+                        android:layout_width="match_parent"
+                        android:maxLength="4"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V125"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V126"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/equipmentPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="#06df32"
+                    android:gravity="center"
+                    android:text="1 میلیون و 800 هزار تومان"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/F3S2_tv41"
+                    style="@style/equipmentTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="@color/divider"
+                    android:gravity="right|center_vertical"
+                    android:layoutDirection="rtl"
+                    android:text="سقف تمام شیشه ای(Panorama)"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/equipmentDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layoutDirection="rtl"
+                android:text=""
+                android:textDirection="rtl" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/F3S2_rg43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/F3S2V127"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text=" با قیمت پیشنهادی شرکت تمایل دارم"
+                        android:textDirection="rtl" />
+                    <EditText
+                        android:id="@+id/F3S2V128"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="با این قیمت تمایل دارم"
+                        android:maxLength="4"
+                        android:inputType="number" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/convert_F3S2V128"/>
+                    <CheckBox
+                        android:id="@+id/F3S2V129"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:layoutDirection="rtl"
+                        android:text="اصلا تمایل ندارم"
+                        android:textDirection="rtl" />
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

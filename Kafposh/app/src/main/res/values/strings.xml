@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kafpoosh</string>
+    <string name="setting1">setting1</string>
+    <string name="setting2">setting2</string>
+    <string name="setting3">setting3</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="list_items">
+        <item>فهرست محصولات</item>
+        <item>لیست سفارشات</item>
+        <item>تغییر کلمه عبور</item>
+        <item>سوابق درخواست نمونه</item>
+        <item>خروج</item>
+    </string-array>
+
+    <string name="login">ورود</string>
+    <string name="password">رمز عبور</string>
+    <string name="forgot_password">رمز عبور خود را فراموش کرده اید؟</string>
+    <string name="email">آدرس ایمیل</string>
+    <string name="iran_kafpush">ایران کفــــــپوش</string>
+    <string name="change_password">تغییر کلمه عبور</string>
+    <string name="old_password">رمز عبور فعلی</string>
+    <string name="new_password">رمز عبور جدید</string>
+    <string name="confirm_new_password">تایید رمز عبور جدید</string>
+    <string name="change">تغییر</string>
+    <string name="explain">از این بخش می توانید به تمامی بخش های برنامه دسترسی داشته باشید.</string>
+</resources>

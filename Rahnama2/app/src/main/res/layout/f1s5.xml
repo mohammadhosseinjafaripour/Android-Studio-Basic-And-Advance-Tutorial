@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form1"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/soalf1s5"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5-	در صورتيکه سال ساخت  حداقل يکي از خودروهاي خانواده،کمتر از سه سال باشد و امکانات و تجهيزات اضافه اي (به عنوان نمونه: تودوزي چرمي، سنسور دنده عقب / دوربين ديد عقب ، کروز کنترل و ... (،روي آن خودرو نصب نموده ايد، به اين سوال پاسخ داده شود، در غير اين صورت لطفا به سوال 6 پاسخ داده شود.(حداکثر دو خودرو –در صورت تفاوت در نوع در نظر گرفته شود) پرسشگر محترم به پاسخگو یادآوری شود روکش صندلی و کفپوش به عنوان تجهيزات در نظر گرفته نشود. "
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/line_hseshidden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/f1s5v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:maxLength="1"
+            android:hint="شماره رديف خودروي مذکور در پاسخ سئوال 4:"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@color/divider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ميزان هزينه انجام شده جهت نصب امکانات و تجهيزات اضافي:"
+            android:id="@+id/textView12"
+            android:layout_gravity="right"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/f1s5v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/f1s5v2_1"
+                    android:hint="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="کمتر از 300 هزار تومان" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/f1s5v2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="بين 300 تا 500 هزار تومان"/>
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/f1s5v2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="بين 500 هزار تومان تا یک میلیون تومان"/>
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/f1s5v2_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="بیشتر از یک میلیون تومان"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/la_kar">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="لطفا میزان هزینه را ذکر کنید."
+            android:id="@+id/f1s5v3"
+            android:layout_gravity="right"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/line_hseshidden2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="شماره رديف خودروي مذکور در پاسخ سئوال 4: "
+            android:id="@+id/f1s5v4"
+            android:maxLength="1"
+            android:layout_gravity="right"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ميزان هزينه انجام شده جهت نصب امکانات و تجهيزات اضافي:"
+            android:id="@+id/textView120"
+            android:layout_gravity="right"
+            android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/f1s5v5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/f1s5v5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="کمتر از 300 هزار تومان"/>
+                <RadioButton
+                    android:id="@+id/f1s5v5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="بين 300 تا 500 هزار تومان"/>
+                <RadioButton
+                    android:id="@+id/f1s5v5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="بين 500 هزار تومان تا یک میلیون تومان"/>
+                <RadioButton
+                    android:id="@+id/f1s5v5_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="بیشتر از یک میلیون تومان"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:visibility="gone"
+        android:id="@+id/la_vanet">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s5v6"
+            android:layout_gravity="right"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnclick9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="سوال بعدی"
+            android:onClick="get_sel" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form6.F6S1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="مشخصات کلیدی در انتخاب خودرو فعلی"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/f6s7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="7- درجدول زير مشخصه‌هاي کليدي خودرو وانت ذکر شده است، لطفاً تعيين کنيدكه كداميك از مشخصه‌هاي زير در تصميم‌گيري شما برای انتخاب خودروي فعلی بیشترین تاثیر را داشته است. به ترتيب 10 اولويت اول خود را انتخاب کنيد. (شوکارت) (اولین اولویت بالاترین اولویت می باشد)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="مشخصه های کلیدی"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/f6s7v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="1"
+                    android:layoutDirection="rtl"
+                    android:text="ابعاد قسمت بار و حجم  بار قابل حمل  (قابليت حمل بارهاي حجیم)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="2"
+                    android:layoutDirection="rtl"
+                    android:text="وزن بار قابل حمل خودرو وانت (قابليت حمل بارهاي سنگين)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="3"
+                    android:layoutDirection="rtl"
+                    android:text="تعداد كابين (تعداد سرنشيني كه مي توان با آن جابجا نمود)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="4"
+                    android:layoutDirection="rtl"
+                    android:text="قابليت استفاده در انواع جاده‌ها (خاكي، شوسه، كوهستاني و ........)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="5"
+                    android:layoutDirection="rtl"
+                    android:text="سهولت بارگيري و تخليه بار"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="6"
+                    android:layoutDirection="rtl"
+                    android:text="کیفیت (قطعات به کار رفته، قابلیت اعتماد، دوام خودرو)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="7"
+                    android:layoutDirection="rtl"
+                    android:text="سهولت و سادگي تعمير"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="8"
+                    android:layoutDirection="rtl"
+                    android:text="خدمات پس از فروش (در دسترس بودن و کیفیت خدمات)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="9"
+                    android:layoutDirection="rtl"
+                    android:text="سطح تجهیزات و امکانات رفاهی (تهویه اتوماتیک و ...)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="10"
+                    android:layoutDirection="rtl"
+                    android:text="عملكرد موتور و قواي محركه (قدرت و کشش موتور، شتاب و ...)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="11"
+                    android:layoutDirection="rtl"
+                    android:text="هزينه هاي سرويس و نگهداري"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="12"
+                    android:layoutDirection="rtl"
+                    android:text="میزان مصرف سوخت و پیمایش خودرو"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="13"
+                    android:layoutDirection="rtl"
+                    android:text="نوع سوخت (بنزين، گازوئيل يا دوگانه سوز بودن)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="14"
+                    android:layoutDirection="rtl"
+                    android:text="قيمت (ارزندگی خودرو به قیمت)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="15"
+                    android:layoutDirection="rtl"
+                    android:text="شاسي و فنر بندي قوي"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="16"
+                    android:layoutDirection="rtl"
+                    android:text="ايمني(استحكام بدنه، تجهیزات ایمنی)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="17"
+                    android:layoutDirection="rtl"
+                    android:text="میزان صدا و لرزش در اتاق"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="18"
+                    android:layoutDirection="rtl"
+                    android:text="شرایط خرید و تسهیلات"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="19"
+                    android:layoutDirection="rtl"
+                    android:text="زيبايي داخلي/ خارجي خودرو (استایل خودرو)"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/f6s7v20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                    android:hint="20"
+                    android:layoutDirection="rtl"
+                    android:text="مارك، برند"
+                    android:textAlignment="textStart"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/f6s7_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بعدی" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form2.f2s5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form2"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_all"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingTop="10dp"
+                android:textSize="@dimen/font"
+                android:textColor="@color/black"
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5- در روش فروش اقساطی , کدام یک از شرایط فروش زیر از جذابیت بیشتری برای شما بر خوردار است؟" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/f2s5_errorlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/f2s5_errorTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/divider"
+                android:text="لطفا یک گزینه را انتخاب کنید"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linerhidden2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f2s5v1">
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/f2s5v1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="دوره بازپرداخت 2 سال, میزان پرداخت نقدی 30%"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"/>
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/f2s5v1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="دوره بازپرداخت 3 ساله,میزان پرداخت نقدی 40%"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"/>
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/f2s5v1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="دوره بازپرداخت 4 ساله,میزان پرداخت نقدی 50%"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:paddingBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingTop="10dp"
+                android:id="@+id/f2s5_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

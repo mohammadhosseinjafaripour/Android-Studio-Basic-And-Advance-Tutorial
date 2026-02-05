@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="5- با توجه به اعلام تمایل به شیوه نقد و اقساط در خرید خودرو وانت آتی خود، کدامیک از عوامل زیر هنگام خرید برای شما اهمیت بیشتری دارد؟"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/F5S5V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S5V1_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="کمتر بودن میزان پرداخت نقدی" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S5V1_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="طولانی تر بودن دوره بازپرداخت اقساط " />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S5V1_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="کمتر بودن نرخ بهره تسهیلات دریافتی" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

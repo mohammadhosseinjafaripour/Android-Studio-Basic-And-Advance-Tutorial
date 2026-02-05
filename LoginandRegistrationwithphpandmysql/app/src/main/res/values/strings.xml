@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login and Registration with php and mysql</string>
+    <string name="Email">ایمیل</string>
+    <string name="password"> گذرواژه </string>
+    <string name="login">ورود</string>
+    <string name="notmember">عضو نیستید ؟</string>
+    <string name="username">نام کاربری</string>
+    <string name="register">ثبت نام</string>
+    <string name="already_member">عضو هستید ؟</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="btn_logout">خروج</string>
+</resources>

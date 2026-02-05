@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <include
+            layout="@layout/title_form2"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_all">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="24- در خانواده شما چند نفر گواهينامه رانندگي دارند(شامل شما نيز مي‌شود) ؟"
+                android:id="@+id/textView"
+                android:layout_gravity="right"
+                android:visibility="visible"
+                android:textSize="@dimen/font" />
+
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/f2s24v1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="چند نفر"
+        android:maxLength="3"
+        android:inputType="number" />
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02">
+
+            <Button
+                android:id="@+id/f2s24_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="مرحله بعد"
+                android:onClick="get_sel" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>

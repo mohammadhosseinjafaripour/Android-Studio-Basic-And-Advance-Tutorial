@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form2.f2s17">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingTop="10dp"
+                android:textSize="@dimen/font"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17- به نظر شما در صورت عرضه خودرو انتخابی شما، با موتور‌هاي دوگانه سوز، ديزلي، هيبريدي و یا برقی (با سطح تجهیزات و مشخصات فني شبيه مدل بنزيني) و قيمتهای فعلی انواع سوخت و برق،  چه مقدار افزايش قيمت نسبت به خودرو بنزينی را  براي آنها معقول دانسته و پيشنهاد مي‌نمائيد."/>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نوع موتور"
+            android:id="@+id/iderrorall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linerhidden1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="موتور دوگانه سوز"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/f2s17v2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f2s17v2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 1 تا 2 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f2s17v2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 2 تا 3 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f2s17v2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 3 تا 4 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f2s17v2_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بیشتر از 4 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f2s17v2_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="با این قیمت ها نمی خواهم"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linerhidden_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="موتور دیزلی"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/f2s17v3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f2s17v3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 3 تا 4 میلوین تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f2s17v3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 4 تا 5 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f2s17v3_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 5 تا 6 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f2s17v3_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بیشتر از 6 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f2s17v3_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="با این قیمت ها نمی خواهم"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linerhidden3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/f2s17v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f2s17v1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="موتور هیبریدی -فول"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f2s17v1_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="موتور هیبریدی فول - Plugin"
+                        android:textAlignment="textStart" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/f2s17v4"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f2s17v4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="بین 10 تا 12 میلوین تومان"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f2s17v4_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="بین 12 تا 15 میلیون تومان"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f2s17v4_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="بین 15 تا 20 میلیون تومان"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f2s17v4_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="بیشتر از 20 میلیون تومان"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f2s17v4_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layoutDirection="rtl"
+                        android:text="با این قیمت ها نمی خواهم"
+                        android:textAlignment="textStart" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/f2s17v5"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:hint="1"
+                            android:id="@+id/f2s17v5_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layoutDirection="rtl"
+                            android:text="بین 20 تا 25 میلوین تومان"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:hint="2"
+                            android:id="@+id/f2s17v5_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layoutDirection="rtl"
+                            android:text="بین 25 تا 30 میلیون تومان"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:hint="3"
+                            android:id="@+id/f2s17v5_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layoutDirection="rtl"
+                            android:text="بین 30 تا 35 میلیون تومان"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:hint="4"
+                            android:id="@+id/f2s17v5_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layoutDirection="rtl"
+                            android:text="بیشتر از 35 میلیون تومان"
+                            android:textAlignment="textStart" />
+
+                        <RadioButton
+                            android:hint="5"
+                            android:id="@+id/f2s17v5_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layoutDirection="rtl"
+                            android:text="با این قیمت ها نمی خواهم"
+                            android:textAlignment="textStart" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linerhidden4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="موتور برقی"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/f2s17v6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f2s17v6_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 25 تا 30 میلوین تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f2s17v6_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 30 تا 35 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f2s17v6_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 35 تا 40 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f2s17v6_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بیشتر از 40 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                    <RadioButton
+                        android:hint="5"
+                        android:id="@+id/f2s17v6_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="با این قیمت ها نمی خواهم"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="12dp"
+                android:id="@+id/f2s17vclick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="مرحله بعد" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

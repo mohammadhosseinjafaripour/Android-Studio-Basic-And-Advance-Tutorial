@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jfp.materialdesigncirclemenu.MainActivity">
+
+    <com.imangazaliev.circlemenu.CircleMenu
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/circleMenu"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp">
+
+
+        <com.imangazaliev.circlemenu.CenterMenuButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search"
+            app:icon="@drawable/search"
+            app:colorNormal="#2196F3"
+            app:colorPressed="#1E88E5"/>
+
+        <com.imangazaliev.circlemenu.CenterMenuButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alert"
+            app:icon="@drawable/alert"
+            app:colorNormal="#4CAF50"
+            app:colorPressed="#43A047"/>
+
+        <com.imangazaliev.circlemenu.CenterMenuButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/favorite"
+            app:icon="@drawable/favorite"
+            app:colorNormal="#F44336"
+            app:colorPressed="#E53935"/>
+
+        <com.imangazaliev.circlemenu.CenterMenuButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit"
+            app:icon="@drawable/edit"
+            app:colorNormal="#9C27B0"
+            app:colorPressed="#8E24AA"/>
+
+        <com.imangazaliev.circlemenu.CenterMenuButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/place"
+            app:icon="@drawable/place"
+            app:colorNormal="#FF9800"
+            app:colorPressed="#FB8C00"/>
+
+
+
+
+
+    </com.imangazaliev.circlemenu.CircleMenu>
+
+</android.support.constraint.ConstraintLayout>

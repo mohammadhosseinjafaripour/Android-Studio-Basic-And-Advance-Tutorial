@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form2.f2s9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="9- با توجه به نياز، بودجه خرید و خودروی انتخابی خود، در نظر دارید اندازه خودروي آينده شما كداميك از گزينه‌هاي زير باشد؟"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/f2s9_errorlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/f2s9_errorTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"
+                android:text="لطفا یک گزینه را انتخاب کنید"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/f2s9v1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="1"
+                    android:layoutDirection="rtl"
+                    android:text="بسیار کوچک"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="end"
+                    android:layoutDirection="rtl"
+                    android:text="MVM 110S، کیا پیکانتو، فیات 500، میتسوبیشی میراژ، هیوندایی i10"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="2"
+                    android:layoutDirection="rtl"
+                    android:text="کوچک"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="پراید (هاچ بک و صندوق دار)، پژو206 (هاچ بک و صندوق دار)، پژو 207، رانا، تیبا، ساینا، تویوتا یاریس، برلیانس H220، هیوندای i20، کیا ریو، اپل کورسا، ام جی 3"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="3"
+                    android:layoutDirection="rtl"
+                    android:text="متوسط"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تندر 90،سمند، پژو 405، پژو پارس، دنا، رنو مگان، کیا سراتو،  جک J5، برلیانس H330، برلیانس H320، تویوتا کرولا، هیوندای النترا، میتسوبیشی لنسر، مزدا 3، MVM 550، رنو فلوئنس"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="4"
+                    android:layoutDirection="rtl"
+                    android:text="بزرگ"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تویوتا کمری، هیوندای سوناتا، کیا اپتیما، هوندا آکورد، رنو تالیسمان، لیفان 820، بنز کلاس C، بی ام و سری 3"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="5"
+                    android:layoutDirection="rtl"
+                    android:text="خیلی بزرگ و لوكس"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="هیوندایی جنسیس، کیا کارنز، پورشه پانامرا، بی ام و سری 5 و سری7، بنز کلاس E، بنز کلاس S، هیوندای سنتینال، لکسوس LS، مازراتی"
+                    android:textColor="@color/black" />
+
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="6"
+                    android:layoutDirection="rtl"
+                    android:text="شاسي بلندSUV کوچک(5 صندلی)"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="سانگ یانگ تیوولی، رنو کپچر، لیفان X50، رنو ساندرو Step Way، چانگان CS35، نیسان جوک،MVM X22، هاوال M4، دانگ فنگ H30 Cross"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:hint="7"
+                    android:layoutDirection="rtl"
+                    android:text="شاسي بلندSUV متوسط(5 يا 7 صندلی)"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="سوزوکی گرند ویتارا، هیوندایتوسان (IX35)، کیا اسپورتیج، تویوتا RAV4، هیوندائی سانتافه (IX45)، جک S5، هایما S7، بی ام و X1، رنو داستر، میتسوبیشی ASX، کوراندو، تیگو 5، میتوبیشی اوتلندر"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:hint="8"
+                    android:layoutDirection="rtl"
+                    android:text="شاسي بلندSUV بزرگ(7 صندلی)"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تویوتا پرادو، تویوتا لندکروز،نیسان مورانو، ولوو XC90، بی ام و X3، بی ام و X5، سانگ یانگ Rexton، کیا Mohave، کیا سورنتو، هیوندای وراکروز (IX55)، "
+                    android:textColor="@color/black" />
+
+
+                <RadioButton
+                    android:id="@+id/f2s9v1_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:hint="9"
+                    android:layoutDirection="rtl"
+                    android:text="استيشن/چندمنظورهMPV"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="کیا كارنز، رنو R90، هیوندای i40، کیا كارنيوال"
+                    android:textColor="@color/black" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/f2s9vclick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="مرحله بعد" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

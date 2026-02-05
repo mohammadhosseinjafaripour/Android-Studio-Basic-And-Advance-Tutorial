@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form6.F6S1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="رفتار استفاده از خودروی دراختیار"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="2- در جدول زیر موقعیت های مختلفی که خودرو وانت مورد استفاده قرار میگیرد، آمده است. لطفا برای هر مورد بفرمایید از خودروی وانت خود برای حمل چه نوع بارهائی و با چه حجم و وزنی از بار، استفاده میکنید؟"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نوع بار و کالای جابجا شده"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1- بار باز و فله ای(میوه، سبزی، مصالح ساختمانی، آهن الات و ...)"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v1tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v1_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v1_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v2tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v2_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v2_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2- مواد غذایی و کالاهای فاسد شدنی"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v4tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v4_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v4_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v5tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v5_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v5_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3- مواد یا کالاهای بسته بندی شده"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v7tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v7_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v7_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v8tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v8_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v8_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4- اقلام شکننده و حساس(شیشه، چینی، لوازم صوتی و تصویری و ...)"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v10tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v10_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v10_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v11tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v11_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v11_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5- اسباب و اثاثیه منازل و ادارات"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v13tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v13_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v13_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v14tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v14_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v14_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6- سیالات(آب، نفت، گازوئیل، شیر و ...)"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v16tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v16_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v16_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v17tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v17_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v17_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7- دام، طیور و ماهی"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v19tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v19"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v19_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v19_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v20tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v20_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v20_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8- سرنشین(انسان)"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v22tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v22_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v22_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v23tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v23"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v23_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v23_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9- سایر لطفا ذکر فرمایید"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/f6s2v28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="نوع بار" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/f6s2v27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#fd8484"
+                            android:checked="false"
+                            android:layoutDirection="rtl"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="ما چنین بارهایی را حمل نمی کنیم"
+                            android:textAlignment="textStart"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/f6s2qb9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v25tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="حجم بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v25_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="حجم زیاد"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v25_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="کم حجم"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f6s2v26tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@color/divider"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="وزن بار"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/black" />
+
+                            <RadioGroup
+                                android:id="@+id/f6s2v26"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v26_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="1"
+                                    android:layoutDirection="rtl"
+                                    android:text="سنگین"
+                                    android:textAlignment="textStart" />
+
+                                <RadioButton
+                                    android:id="@+id/f6s2v26_2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:layout_weight="0.5"
+                                    android:button="@null"
+                                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                                    android:hint="2"
+                                    android:layoutDirection="rtl"
+                                    android:text="سبک"
+                                    android:textAlignment="textStart" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/f6s2_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

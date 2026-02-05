@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form6.F6S1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="رقابت پذيري خودروي فعلي"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="8-  پرسشگر محترم، پس از تعيين قيمت تقريبي وانت فعلي پاسخگو، از وی بخواهید یکی دیگر از وانت هایی که در بخش قیمتی وانت اول ایشان قرار دارد و تجربه استفاده یا شناخت نسبی به آن دارد را انتخاب نموده و در مورد این خودرو به موارد زیر پاسخ دهد."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/f6s8v1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:layout_marginRight="6dp"
+                        android:layout_weight="0.55"
+                        android:background="#dadada"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:id="@+id/f6s8v4tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:background="#ed8404"
+                        android:gravity="center"
+                        android:text="مارک، مدل و تیپ خودرو انتخابی: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/f6s8v4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/f6s8v4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:hint="1"
+                        android:layoutDirection="rtl"
+                        android:text="1)تجربه رانندگی با این خودرو را دارم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:id="@+id/f6s8v4_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:hint="2"
+                        android:layoutDirection="rtl"
+                        android:text="2) فقط شناخت نسبی به این خودرو دارم"
+                        android:textAlignment="textStart" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/f6s8v2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:layout_marginRight="6dp"
+                        android:layout_weight="0.55"
+                        android:background="#dadada"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:id="@+id/f6s8v5tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:background="#ed8404"
+                        android:gravity="center"
+                        android:text="مارک، مدل و تیپ خودرو انتخابی: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/f6s8v5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/f6s8v5_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:hint="1"
+                        android:layoutDirection="rtl"
+                        android:text="1)تجربه رانندگی با این خودرو را دارم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:id="@+id/f6s8v5_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:hint="2"
+                        android:layoutDirection="rtl"
+                        android:text="2) فقط شناخت نسبی به این خودرو دارم"
+                        android:textAlignment="textStart" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/f6s8v3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:layout_marginRight="6dp"
+                        android:layout_weight="0.55"
+                        android:background="#dadada"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:id="@+id/f6s8v6tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:background="#ed8404"
+                        android:gravity="center"
+                        android:text="مارک، مدل و تیپ خودرو انتخابی: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/f6s8v6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/f6s8v6_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:hint="1"
+                        android:layoutDirection="rtl"
+                        android:text="1)تجربه رانندگی با این خودرو را دارم"
+                        android:textAlignment="textStart" />
+
+                    <RadioButton
+                        android:id="@+id/f6s8v6_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                        android:hint="2"
+                        android:layoutDirection="rtl"
+                        android:text="2) فقط شناخت نسبی به این خودرو دارم"
+                        android:textAlignment="textStart" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/f6s8_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

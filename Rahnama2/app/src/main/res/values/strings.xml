@@ -1,0 +1,1053 @@
+<resources>
+    <string name="app_name">رهنما</string>
+
+    <!--> activity 3 <-->
+    <string name="txtmsg">-3آیا خانواده شما , در حال حاضر داری خودرو می باشد ؟</string>
+    <string name="yes">داریم</string>
+    <string name="no">نداریم</string>
+    <string name="car">خودروی سواری</string>
+    <string name="truck">خودروی وانت</string>
+    <string name="count">تعداد</string>
+    <string name="chcarno">تا به حال خودرو نداشته ایم</string>
+    <string name="chcaryes">در حال حاظر خودرو نداریم</string>
+    <string name="btncheck3">مرحله بعد</string>
+
+    <!--> activity 2 <-->
+    <string name="nameandfamily2">نام و نام خانوادگی تصمیم گیرنده</string>
+    <string name="telnum2">شماره تماس الزامی</string>
+    <string name="address2">آدرس</string>
+
+    <!--> activity last <-->
+    <string name="msg8">کدام یک از عوامل زیر بیشترین تاثیر را در عدم تمایل شما به خرید خودرو نو و تعویض خودرو فعلی دارد ؟</string>
+    <string-array name="qt8">
+        <item>عدم امکان تامين نقدينگی لازم برای خريد خودرو نو</item>
+        <item>عدم توانايي پرداخت اقساط در روشهای فروش فعلی</item>
+        <item>هزينه پايين نگهداری خودروی فعلی</item>
+        <item> رضایت از خودرو فعلی</item>
+        <item>عدم وجود خودروی مناسب با سطح بودجه و توان خرید من</item>
+        <item>مناسب نبودن شرايط فروش اقساطی</item>
+        <item>مناسب نبودن شرايط طرح جايگزينی خودروهای فرسوده</item>
+    </string-array>
+    <string name="otherlast8">سایر موارد</string>
+    <string name="msgothers8">لطفا ذکر شود.</string>
+
+    <!--> activity6<-->
+
+    <string name="question6">6- آیا در طول یکسال گذشته قصد خرید خودرو را داشته اید ؟</string>
+    <string name="f1s6_radiobutton1">بله داشتم و خریداری کردم</string>
+    <string name="f1s6_radiobutton2">بله داشتم و نخریدم </string>
+    <string name="f1s6_radiobutton3">نداشتم و خریدم</string>
+    <string name="f1s6_msg">قصد خرید چه خودرویی را داشتید ؟</string>
+
+    <string-array name="f1_spinner"></string-array>
+
+    <string-array name="f1_spinner1">
+        <item>بنر</item>
+        <item>مرسدس</item>
+        <item>آئودی</item>
+        <item>نیسان</item>
+        <item>ولوو</item>
+    </string-array>
+
+
+    <string-array name="f1_spinner2">
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+        <item>مرسدس</item>
+    </string-array>
+
+    <string-array name="f1_spinner3">
+        <item>پیکان</item>
+        <item>پیکان</item>
+        <item>پیکان</item>
+        <item>پیکان</item>
+        <item>پیکان</item>
+    </string-array>
+
+    <string name="f1s6_txt">مارک</string>
+    <string name="f1s6_txt2">مدل</string>
+    <string name="f1s6_txt3">تیپ</string>
+    <string name="f1s6_txt4">نو</string>
+    <string name="f1s6_txt5">دست دوم</string>
+
+
+    <string-array name="f1_spinner4">
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+    </string-array>
+    <string-array name="f1_spinner5">
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+    </string-array>
+    <string-array name="f1_spinner6">
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+        <item>بنر</item>
+    </string-array>
+
+
+    <string name="f1s6_txt8">چه زمانی ؟</string>
+    <string name="f1s6_txt9">بهای خرید ؟</string>
+
+
+    <!--> 8 <-->
+    <string name="f1s7text">7- آیا خانواده شما قصد خرید یا تعویض خودرو در آینده را دارد ؟ (حداکثر دو خودرو با الویت بالاتر خرید و دارای نوع متفاوت در نظر گرفته شوند)</string>
+    <string-array name="f1s7v1">
+        <item>لطفا انتخاب کنید</item>
+        <item>تا شش ماه آینده</item>
+        <item>بین شش ماه تا یکسال آینده</item>
+        <item>بین یک تا دو سال اینده</item>
+        <item>بیش از دو سال اینده</item>
+        <item>اصلا قصد ندارم</item>
+    </string-array>
+
+    <string-array name="f1s7v2">
+        <item>لطفا انتخاب کنید</item>
+        <item>سواری</item>
+        <item>وانت</item>
+        <item>ون</item>
+        <item>سایر موارد</item>
+    </string-array>
+
+    <string-array name="f1s7v4">
+        <item>نو</item>
+        <item>دست دوم</item>
+    </string-array>
+
+    <string-array name="f1s7v6">
+        <item>نقدی</item>
+        <item>اقساطی</item>
+    </string-array>
+
+
+    <!--> activity 8 <-->
+
+    <string-array name="f1s8v1">
+        <item>عدم امکان تامين نقدينگی لازم برای خريد خودرو نو</item>
+        <item>عدم توانايي پرداخت اقساط در روشهای فروش فعلی</item>
+        <item>هزينه پايين نگهداری خودروی فعلی</item>
+        <item> رضایت از خودرو فعلی</item>
+        <item>عدم وجود خودروی مناسب با سطح بودجه و توان خرید من</item>
+        <item>مناسب نبودن شرايط فروش اقساطی</item>
+        <item>مناسب نبودن شرايط طرح جايگزينی خودروهای فرسوده</item>
+        <item>سایر موارد</item>
+    </string-array>
+
+    <!--> activity 9 <-->
+
+    <string-array name="f1s9v1">
+        <item>کاهش ميزان پرداخت نقدی در روش خرید اقساطی</item>
+        <item>افزايش دوره بازپرداخت اقساط </item>
+        <item>کاهش نرخ بهره تسهيلات دريافتی</item>
+        <item>تسهيل شرايط دريافت وام (ارائه سفته به جای ضامن يا چک)</item>
+        <item> ورود خودروهای جديد به بازار</item>
+        <item>ساير (لطفا ذکر شود)</item>
+    </string-array>
+
+    <!--> activity 10 <-->
+
+    <string-array name="f1s10v1">
+        <item>دوره بازپرداخت اقساط2 ساله ، ميزان پرداخت نقدی 30%</item>
+        <item>دوره بازپرداخت اقساط3 ساله ، ميزان پرداخت نقدی 40% </item>
+        <item>دوره بازپرداخت اقساط4 ساله ، ميزان پرداخت نقدی 50%</item>
+    </string-array>
+
+    <!--> activity 11 <-->
+
+    <string-array name="f1s11v1">
+        <item> تعويض خودروی فعلی با خودروی نو</item>
+        <item> تعويض خودروی فعلی با خودروی دست دوم کم کارکرد از بازار آزاد</item>
+        <item> تعويض خودروی فعلی با خودروی دست دوم کم کارکرد از شرکت های خودروساز(خودرو دست دوم با گارانتی محدود/6 ماهه)</item>
+        <item> تحت هيچ شرايطي تمايل به تعويض خودروی فعلی ندارم.</item>
+    </string-array>
+
+
+
+
+    <!--> activity <-->
+    <string-array name="f1s4v1">
+        <item>سواری</item>
+        <item>وانت</item>
+        <item>ون</item>
+        <item>سایر</item>
+    </string-array>
+
+    <string-array name="brand">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>آئودی</item>
+        <item>هیوندا</item>
+    </string-array>
+
+    <string-array name="model">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>آئودی</item>
+        <item>هیوندا</item>
+    </string-array>
+    <string-array name="tip">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>آئودی</item>
+        <item>هیوندا</item>
+    </string-array>
+    <string-array name="fuel">
+        <item>لطفا انتخاب کنید.</item>
+        <item>بنزینی</item>
+        <item>بنزین و گاز</item>
+        <item>گازوئیل</item>
+        <item>هیبریدی</item>
+        <item>برقی</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>لطفا انتخاب کنید.</item>
+        <item>دستی</item>
+        <item>اتوماتیک</item>
+    </string-array>
+
+
+    <string-array name="qt5">
+        <item>کمتر از 300 هزار تومان</item>
+        <item>بين 300 تا 500 هزار تومان</item>
+        <item>بين 500 هزار تومان تا يک ميليون تومان</item>
+        <item>بيشتر از يک ميليون تومان، لطفا ميزان هزينه ذکر شود</item>
+    </string-array>
+
+
+    <string-array name="cit">
+        <item>استان تهران</item>
+        <item>استان اصفهان</item>
+        <item>استان خراسان رضوی</item>
+        <item>استان فارس</item>
+        <item>استان آذربایجان شرقی</item>
+        <item>استان خوزستان</item>
+        <item>استان گیلان</item>
+        <item>استان کرمان</item>
+        <item>استان همدان</item>
+        <item>استان کرمانشاه</item>
+        <item>استان بوشهر</item>
+        <item>استان مازنداران</item>
+    </string-array>
+
+    <string-array name="city"></string-array>
+
+    <string-array name="city0">
+        <item>تهران</item>
+    </string-array>
+    <string-array name="city1">
+        <item>اصفهان</item>
+    </string-array>
+    <string-array name="city2">
+        <item>مشهد</item>
+    </string-array>
+    <string-array name="city3">
+        <item>شیراز</item>
+    </string-array>
+    <string-array name="city4">
+        <item>تبریز</item>
+    </string-array>
+    <string-array name="city5">
+        <item>اهواز</item>
+    </string-array>
+    <string-array name="city6">
+        <item>رشت</item>
+    </string-array>
+    <string-array name="city7">
+        <item>کرمان</item>
+    </string-array>
+    <string-array name="city8">
+        <item>همدان</item>
+    </string-array>
+    <string-array name="city9">
+        <item>کرمانشاه</item>
+    </string-array>
+    <string-array name="city10">
+        <item>بوشهر</item>
+    </string-array>
+    <string-array name="city11">
+        <item>ساری</item>
+    </string-array>
+
+
+    <string-array name="state"></string-array>
+
+
+    <string-array name="state1">
+        <item>شهرضا</item>
+    </string-array>
+    <string-array name="state2">
+        <item>نیشابور</item>
+    </string-array>
+    <string-array name="state3">
+        <item>فسا</item>
+    </string-array>
+    <string-array name="state4">
+        <item>مراغه</item>
+    </string-array>
+    <string-array name="state5">
+        <item>دزفول</item>
+    </string-array>
+    <string-array name="state6">
+        <item>انزلی</item>
+    </string-array>
+    <string-array name="state7">
+        <item>بم</item>
+    </string-array>
+    <string-array name="state8">
+        <item>ملایر</item>
+    </string-array>
+    <string-array name="state9">
+        <item>اسلام آباد غرب</item>
+    </string-array>
+    <string-array name="state10">
+        <item>دشتستان</item>
+    </string-array>
+    <string-array name="state11">
+        <item>نوشهر</item>
+    </string-array>
+
+
+    <string-array name="company">
+        <item>ایران خودرو</item>
+        <item>سایپا</item>
+        <item>پارس خودرو</item>
+        <item>کرمان خودرو</item>
+        <item>کارمانیا</item>
+        <item>گروه بهمن</item>
+        <item>مدیران خودرو</item>
+        <item>ام‌جی پارس</item>
+        <item>آسام موتور</item>
+        <item>اطلس خودرو</item>
+        <item>نگین خودرو</item>
+        <item>ایرتویا</item>
+        <item>ستاره ایران</item>
+        <item>معین خودرو</item>
+        <item>پرشیا خودرو</item>
+        <item>جهان نوین آریا</item>
+        <item>رامک خودرو</item>
+        <item>مدیا موتور</item>
+        <item>آلفا موتور</item>
+        <item>آرتا تک موتور</item>
+        <item>افرا موتور</item>
+        <item>گلرنگ موتور فامیلی</item>
+        <item>آرین موتور</item>
+    </string-array>
+
+    <string-array name="company_vanet">
+        <item>ایران خودرو</item>
+        <item>سایپا</item>
+        <item>زامیاد</item>
+        <item>پارس خودرو</item>
+        <item>گروه بهمن</item>
+    </string-array>
+
+    <string-array name="tiy">
+        <item>ایکو</item>
+        <item>رنو</item>
+        <item>فوتون</item>
+    </string-array>
+    <string-array name="tiy_1">
+        <item>سایپا</item>
+    </string-array>
+    <string-array name="tiy_2">
+        <item>زامیاد</item>
+    </string-array>
+    <string-array name="tiy_3">
+        <item>دانگ فنگ</item>
+    </string-array>
+    <string-array name="tiy_4">
+        <item>بهمن</item>
+        <item>کاپرا</item>
+    </string-array>
+    <string-array name="th">
+        <item>وانت آریسان دوگانه‌ سوز</item>
+    </string-array>
+    <string-array name="th_1">
+        <item>رنو تندر پیکاپ</item>
+    </string-array>
+
+    <string-array name="tip32">
+        <item>وانت فوتون دوکابین فوتون دیزلی</item>
+        <item>وانت فوتون دوکابین فوتون بنزینی</item>
+    </string-array>
+    <string-array name="tip33">
+        <item>پراید 151 SE</item>
+    </string-array>
+    <string-array name="tip44">
+        <item>وانت زامیاد 24</item>
+        <item>وانت زامیاد 24 گازسوز</item>
+        <item>وانت زامیاد 24 دیزل</item>
+        <item>وانت پادرا انژکتوری PE6</item>
+    </string-array>
+    <string-array name="tip55">
+        <item>وانت کارا 2000 - تک کابین</item>
+        <item>وانت کارا 2000 - دو کابین </item>
+        <item>وانت کاپرا2 دوکابین . دو دیفرانسیل</item>
+    </string-array>
+
+    <string-array name="t_1">
+        <item>23,335,050</item>
+        <item>31,570,950</item>
+    </string-array>
+    <string-array name="t_2">
+        <item>30,239,600</item>
+        <item>40,912,400</item>
+    </string-array>
+    <string-array name="t_3">
+        <item>96,900,000</item>
+        <item>131,100,000</item>
+    </string-array>
+    <string-array name="t_4">
+        <item>80,750,000</item>
+        <item>109,250,000</item>
+    </string-array>
+    <string-array name="t__1">
+        <item>17,266,900</item>
+    </string-array>
+    <string-array name="t___1">
+        <item>27,715,950</item>
+        <item>37,498,050</item>
+    </string-array>
+    <string-array name="t___2">
+        <item>30,678,200</item>
+        <item>41,505,800</item>
+    </string-array>
+    <string-array name="t___3">
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="t___4">
+        <item>36,441,200</item>
+        <item>49,302,800</item>
+    </string-array>
+    <string-array name="t____1">
+        <item>58,468,100</item>
+        <item>79,103,900</item>
+    </string-array>
+    <string-array name="t_____1">
+        <item>29,265,500</item>
+        <item>39,594,500</item>
+    </string-array>
+    <string-array name="t_____2">
+        <item>31,815,500</item>
+        <item>43,044,500</item>
+    </string-array>
+    <string-array name="t_____3">
+        <item>61,455,000</item>
+        <item>83,145,000</item>
+    </string-array>
+
+    <string-array name="temp_brand"></string-array>
+    <string-array name="brand_1">
+        <item>ایکو</item>
+        <item>پژو</item>
+        <item>دانگ فنگ</item>
+        <item>رنو</item>
+        <item>سوزوکی</item>
+        <item>هایما</item>
+    </string-array>
+
+    <string-array name="brand_2">
+        <item>کیا</item>
+        <item>سایپا</item>
+        <item>زوتیه</item>
+        <item>چانگان</item>
+        <item>سیتروئن</item>
+    </string-array>
+    <string-array name="brand_3">
+        <item>برلیانس</item>
+        <item>رنو</item>
+
+    </string-array>
+    <string-array name="brand_4">
+        <item>جیلی</item>
+        <item>لیفان</item>
+        <item>جک</item>
+        <item>هیوندای</item>
+    </string-array>
+    <string-array name="brand_5">
+        <item>بی‌ وای دی</item>
+    </string-array>
+    <string-array name="brand_6">
+        <item>مزدا</item>
+        <item>بسترن</item>
+    </string-array>
+    <string-array name="brand_7">
+        <item>چری</item>
+    </string-array>
+    <string-array name="brand_8">
+        <item>ام جی</item>
+    </string-array>
+    <string-array name="brand_9">
+        <item>هیوندایی</item>
+    </string-array>
+    <string-array name="brand_10">
+        <item>کیا</item>
+    </string-array>
+    <string-array name="brand_11">
+        <item>رنو</item>
+    </string-array>
+    <string-array name="brand_12">
+        <item>تویوتا</item>
+        <item>لکسوس</item>
+    </string-array>
+    <string-array name="brand_13">
+        <item>مرسدس بنز</item>
+    </string-array>
+    <string-array name="brand_14">
+        <item>پورشه</item>
+    </string-array>
+    <string-array name="brand_15">
+        <item>بی ام و</item>
+    </string-array>
+    <string-array name="brand_16">
+        <item>نیسان</item>
+    </string-array>
+    <string-array name="brand_17">
+        <item>سانگ‌یانگ</item>
+    </string-array>
+    <string-array name="brand_18">
+        <item>ام جی</item>
+    </string-array>
+    <string-array name="brand_19">
+        <item>آلفارومئو</item>
+    </string-array>
+    <string-array name="brand_20">
+        <item>مازراتی</item>
+    </string-array>
+    <string-array name="brand_21">
+        <item>ولوو</item>
+    </string-array>
+    <string-array name="brand_22">
+        <item>هوندا</item>
+    </string-array>
+    <string-array name="brand_23">
+        <item>میتسوبیشی</item>
+        <item>سئات</item>
+        <item>دی اس</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="F2S22_1">
+        <!--amalkard motor va girbox-->
+        <item>قدرت و کشش  بالاي موتور</item>
+        <item>شتاب گيري خوب خودرو ( سبقت راحت)</item>
+        <item>سرعت زياد</item>
+        <item>حجم موتوربالا</item>
+        <item>سهولت تعویض دنده</item>
+        <item>تکنولوژي جديد (موتور و گیربکس)</item>
+    </string-array>
+
+
+
+    <!--end of form 1-->
+
+
+    <!--> Form 2 <-->
+    <string-array name="f2s3v1">
+        <item>نقدی,فروش فوری</item>
+        <item>نقدواقساط</item>
+        <item>نقدی,پیش فروش دو یا چند مرحله ای</item>
+        <item>پیش خرید بلندمدت با هدف سرمایه گذاری</item>
+        <item>سایر</item>
+    </string-array>
+
+    <!--> spinner qt 19<-->
+    <string-array name="spi1">
+        <item>ایران خودرو</item>
+        <item>بنز</item>
+        <item>ولکس</item>
+        <item>آئودی</item>
+    </string-array>
+
+    <string-array name="it0">
+        <item>پراید</item>
+        <item>سمند</item>
+        <item>پراید</item>
+        <item>سمند</item>
+    </string-array>
+    <string-array name="it1">
+        <item>پراید</item>
+        <item>سمند</item>
+        <item>پراید</item>
+        <item>سمند</item>
+    </string-array>
+
+    <string-array name="it">
+
+    </string-array>
+
+    <string-array name="checkboxesitems">
+        <item>عملكرد موتور و گیربکس ( قدرت و کشش موتور، شتاب و ...)</item>
+        <item>میزان مصرف سوخت و پیمایش خودرو</item>
+        <item>بازار دست دوم و سهولت نقدشوندگی</item>
+        <item>سواری و لذت رانندگي (هندلينگ خوب)</item>
+        <item>راحتی ،  ارگونومی و فضای داخل خودرو  (جای مناسب برای پا و سرنشین)</item>
+        <item>سطح تجهیزات و امکانات رفاهی (تهویه اتوماتیک،  GPSو ...)</item>
+        <item>ايمني(استحكام بدنه، تجهیزات ایمنی)</item>
+        <item>میزان  صدا و لرزش داخل اتاق</item>
+        <item>شرايط خريدو تسهيلات</item>
+        <item>خدمات پس از فروش(در دسترس بودن و کیفیت خدمات)</item>
+        <item>هزينه‌هاي سرويس و نگهداري</item>
+        <item>زيبايي داخلي/ خارجي خودرو (استایل خودرو)</item>
+        <item>کیفیت (قطعات به کار رفته، قابلیت اعتماد، دوام خودرو)</item>
+        <item>قيمت (ارزندگی خودرو به قیمت)</item>
+        <item>مارك، برند</item>
+        <item>امنیت خودرو (محافظت خودرو و اجزای آن در برابر سرقت)</item>
+    </string-array>
+
+
+
+
+    <string-array name="f2s22_1">
+        <!--amalkard motor va girbox-->
+        <item>قدرت و کشش  بالاي موتور</item>
+        <item>شتاب گيري خوب خودرو ( سبقت راحت)</item>
+        <item>سرعت زياد</item>
+        <item>حجم موتوربالا</item>
+        <item>سهولت تعویض دنده</item>
+        <item>تکنولوژي جديد (موتور و گیربکس)</item>
+    </string-array>
+    <string-array name="f2s22_2">
+        <!--mizane masrafe sukht va peimaiesh khodro-->
+        <item>مصرف سوخت پائين</item>
+        <item>ظرفيت زياد مخزن سوخت (بنزین یا گاز)</item>
+    </string-array>
+    <string-array name="f2s22_3">
+        <!--bazar daste dovvom va sohulat naghd shavandegi-->
+        <item>افت کم قیمت خودرو</item>
+        <item>سهولت فروش مجدد</item>
+    </string-array>
+    <string-array name="f2s22_4">
+        <!--savari va lezat ranandegi-->
+        <item>فرمان نرم و راحت و قابل تنظيم</item>
+        <item>تجهيزات مرتبط با راحتي(وجود سيستم دوربين عقب، سان روف، سيستم صوتي مدرن و پيشرفته  و....)</item>
+        <item>نرم بودن خودرو و عدم انتقال ضربات و تکانها به سرنشينان و راننده</item>
+    </string-array>
+    <string-array name="f2s22_5">
+        <!--rahati, ergonomy va fazaie dakhel khodri-->
+        <item>داشتن صندوق عقب و جادار بودن آن</item>
+        <item>صندليهاي راحت و نرم</item>
+        <item>مناسب بودن وضعيت استقرار و سادگي استفاده از امكانات داخل اتاق توسط سرنشينان و راننده ( ارگونومي مناسب)</item>
+        <item>راحتي سوار و پياده شدن راننده و سرنشينان</item>
+        <item>فاصله زياد صندليها از سقف(ارتفاع مناسب سقف)</item>
+        <item>مناسب بودن وضعيت قرار گرفتن و سادگي استفاده از پدالها، ترمز دستي و دسته دنده</item>
+        <item>جادار بودن و فضاي مناسب داخل خودرو (فاصله مناسب صندليهايعقب از صندليهاي جلو)</item>
+        <item>جمع و جور بودن و کوچکي ابعاد خودرو </item>
+    </string-array>
+    <string-array name="f2s22_6">
+        <!--sathe tajhizat va emkanat refahi-->
+        <item>تجهیزات رفاهی(سیستم تهویه اتوماتیک، گرم کن صندلی و ...)</item>
+        <item>تجهیزات برقی و الکترونیکی</item>
+        <item>تجهیزات سرگرمی و اطلاع رسانی (مولتی مدیا و GPS)</item>
+    </string-array>
+    <string-array name="f2s22_7">
+        <!--eemeni-->
+        <item>ترمز قوي و مطمئن</item>
+        <item>داشتن تعادل در سرعت بالا و سر پيچها</item>
+        <item>بدنه ايمن و محكم در تصادفات</item>
+    </string-array>
+    <string-array name="f2s22_8">
+        <!--mizane seda va larzesh dakhel otagh-->
+        <item>ورود سر و صداي كم به داخل اتاق(موتور، بدنه، گيربكس، شاسي و لاستيکها)</item>
+        <item>سر و صدا و لرزش کم اجزاي داخل اتاق</item>
+    </string-array>
+    <string-array name="f2s22_9">
+        <!--sharaiet kharid va tshilat-->
+        <item>طولاني تر بودن دوره بازپرداخت اقساط</item>
+        <item>پايين بودن نرخ بهره تسهيلات دریافتی</item>
+        <item>کمتر بودن میزان پرداخت نقدی</item>
+        <item>تسهیل شرایط دریافت وام (ارائه سفته به جای چک)</item>
+    </string-array>
+    <string-array name="f2s22_10">
+        <!--khademate pas az forush-->
+        <item>در دسترس بودن قطعات</item>
+        <item>در دسترس بودن و فراواني نمايندگيها</item>
+        <item>كيفيت مناسب تعميرات انجام شده</item>
+        <item>سهولت تعمير</item>
+        <item>طولانی تر بودن دوره زمانيگارانتي</item>
+        <item>سطح پوشش بيشتر قطعات و مجموعه‌‌هاي خودرو در گارانتي</item>
+    </string-array>
+    <string-array name="f2s22_11">
+        <!--hazine haie service va negahdari-->
+        <item>قيمت پائين قطعات يدكي و مصرفي</item>
+        <item>هزينه سوخت كمتر</item>
+        <item>کم خرج بودن خودرو / پایین بودن نرخ خرابی</item>
+        <item>كم بودن دستمزد تعميرات و تعميرکاران</item>
+    </string-array>
+    <string-array name="f2s22_12">
+        <!--zibaee dakheli/khareji khodro-->
+        <item>زيبائي طرح داخل اتاق خودرو</item>
+        <item>زيبائي  طرح و شكل بدنه</item>
+        <item>هماهنگي رنگ بندي اجزاي داخل اتاق خودرو</item>
+        <item>چراغ و سپر</item>
+    </string-array>
+    <string-array name="f2s22_13">
+        <!--keifiat-->
+        <item>طولاني بودن عمر و دوام قطعات</item>
+        <item>مقاومت زياد در برابر پوسيدگي بدنه</item>
+        <item>دوام زياد رنگ</item>
+    </string-array>
+
+    <string-array name="f2s22_14">
+        <!--gheimat-->
+        <item>ارزان بودن خودرو</item>
+        <item>ارزندگي خودرو به قيمت آن</item>
+    </string-array>
+    <string-array name="f2s22_15">
+        <!--mark, brand-->
+        <item>منحصر به فرد بودن خودرو (کسي مانند خودروي من نداشته باشد)</item>
+        <item>اسپرت بودن (خاص بودن شکل خودرو)</item>
+        <item>با پرستيژ بودن خودرو</item>
+        <item>مارک و برند ( خودرو و شرکت سازنده )</item>
+    </string-array>
+    <string-array name="f2s22_16">
+        <!--amniat khodro-->
+        <item>ضدسرقت بودن تجهیزات جانبی خودرو (زاپاس و ECU)</item>
+        <item>تجهیزات جلوگیری از سرقت خودرو</item>
+    </string-array>
+
+
+    <string-array name="f2s23_gender">
+        <item>انتخاب نمایید</item>
+        <item>مرد</item>
+        <item>زن</item>
+    </string-array>
+    <string-array name="f2s23_taahol">
+        <item>انتخاب نمایید</item>
+        <item>متاهل</item>
+        <item>مجرد(تا کنون ازدواج نکرده)</item>
+        <item>مجرد(به دلیل جدایی)</item>
+        <item>مجرد(به دلیل فوت همسر)</item>
+    </string-array>
+    <string-array name="f2s23_tahsilat">
+        <item>انتخاب نمایید</item>
+        <item>ابتدایی</item>
+        <item>راهنمایی و متوسطه</item>
+        <item>دیپلم</item>
+        <item>فوق دیپلم</item>
+        <item>کارشناسی</item>
+        <item>کارشناسیکارشناسی ارشد و بالاتر</item>
+    </string-array>
+    <string-array name="f2s23_job">
+        <item>انتخاب نمایید</item>
+        <item>کارمند</item>
+        <item>مغازه دار</item>
+        <item>فنی کار(نجار،برقکار،لوله کش ...)</item>
+        <item>دانشجو</item>
+        <item>فروشنده</item>
+        <item>کشاورز،باغدار،دامدار</item>
+        <item>راننده(تاکسی،مسافربر شخصی و...)</item>
+        <item>مدیر عامل یا سرمایه گذار</item>
+        <item>کارگر(فصلی،نگهبان و...)</item>
+        <item>بازنشسته</item>
+        <item>خانه دار</item>
+        <item>بیکار</item>
+        <item>سایر(لطفا ذکر شود.....................)</item>
+    </string-array>
+
+
+    <string-array name="ir_fff">
+        <item>تهران</item>
+        <item>تهران</item>
+        <item>تهران</item>
+    </string-array>
+
+
+    <!--end of form2-->
+
+    <string-array name="F2S22_2">
+        <!--mizane masrafe sukht va peimaiesh khodro-->
+        <item>مصرف سوخت پائين</item>
+        <item>ظرفيت زياد مخزن سوخت (بنزین یا گاز)</item>
+    </string-array>
+    <string-array name="F2S22_3">
+        <!--bazar daste dovvom va sohulat naghd shavandegi-->
+        <item>افت کم قیمت خودرو</item>
+        <item>سهولت فروش مجدد</item>
+    </string-array>
+    <string-array name="F2S22_4">
+        <!--savari va lezat ranandegi-->
+        <item>فرمان نرم و راحت و قابل تنظيم</item>
+        <item>تجهيزات مرتبط با راحتي(وجود سيستم دوربين عقب، سان روف، سيستم صوتي مدرن و پيشرفته  و....)</item>
+        <item>نرم بودن خودرو و عدم انتقال ضربات و تکانها به سرنشينان و راننده</item>
+    </string-array>
+    <string-array name="F2S22_5">
+        <!--rahati, ergonomy va fazaie dakhel khodri-->
+        <item>داشتن صندوق عقب و جادار بودن آن</item>
+        <item>صندليهاي راحت و نرم</item>
+        <item>مناسب بودن وضعيت استقرار و سادگي استفاده از امكانات داخل اتاق توسط سرنشينان و راننده ( ارگونومي مناسب)</item>
+        <item>راحتي سوار و پياده شدن راننده و سرنشينان</item>
+        <item>فاصله زياد صندليها از سقف(ارتفاع مناسب سقف)</item>
+        <item>مناسب بودن وضعيت قرار گرفتن و سادگي استفاده از پدالها، ترمز دستي و دسته دنده</item>
+        <item>جادار بودن و فضاي مناسب داخل خودرو (فاصله مناسب صندليهايعقب از صندليهاي جلو)</item>
+        <item>جمع و جور بودن و کوچکي ابعاد خودرو </item>
+    </string-array>
+    <string-array name="F2S22_6">
+        <!--sathe tajhizat va emkanat refahi-->
+        <item>تجهیزات رفاهی(سیستم تهویه اتوماتیک، گرم کن صندلی و ...)</item>
+        <item>تجهیزات برقی و الکترونیکی</item>
+        <item>تجهیزات سرگرمی و اطلاع رسانی (مولتی مدیا و GPS)</item>
+    </string-array>
+    <string-array name="F2S22_7">
+        <!--eemeni-->
+        <item>ترمز قوي و مطمئن</item>
+        <item>داشتن تعادل در سرعت بالا و سر پيچها</item>
+        <item>بدنه ايمن و محكم در تصادفات</item>
+    </string-array>
+    <string-array name="F2S22_8">
+        <!--mizane seda va larzesh dakhel otagh-->
+        <item>ورود سر و صداي كم به داخل اتاق(موتور، بدنه، گيربكس، شاسي و لاستيکها)</item>
+        <item>سر و صدا و لرزش کم اجزاي داخل اتاق</item>
+    </string-array>
+    <string-array name="F2S22_9">
+        <!--sharaiet kharid va tshilat-->
+        <item>طولاني تر بودن دوره بازپرداخت اقساط</item>
+        <item>پايين بودن نرخ بهره تسهيلات دریافتی</item>
+        <item>کمتر بودن میزان پرداخت نقدی</item>
+        <item>تسهیل شرایط دریافت وام (ارائه سفته به جای چک)</item>
+    </string-array>
+    <string-array name="F2S22_10">
+        <!--khademate pas az forush-->
+        <item>در دسترس بودن قطعات</item>
+        <item>در دسترس بودن و فراواني نمايندگيها</item>
+        <item>كيفيت مناسب تعميرات انجام شده</item>
+        <item>سهولت تعمير</item>
+        <item>طولانی تر بودن دوره زمانيگارانتي</item>
+        <item>سطح پوشش بيشتر قطعات و مجموعه‌‌هاي خودرو در گارانتي</item>
+    </string-array>
+    <string-array name="F2S22_11">
+        <!--hazine haie service va negahdari-->
+        <item>قيمت پائين قطعات يدكي و مصرفي</item>
+        <item>هزينه سوخت كمتر</item>
+        <item>کم خرج بودن خودرو / پایین بودن نرخ خرابی</item>
+        <item>كم بودن دستمزد تعميرات و تعميرکاران</item>
+    </string-array>
+    <string-array name="F2S22_12">
+        <!--zibaee dakheli/khareji khodro-->
+        <item>زيبائي طرح داخل اتاق خودرو</item>
+        <item>زيبائي  طرح و شكل بدنه</item>
+        <item>هماهنگي رنگ بندي اجزاي داخل اتاق خودرو</item>
+        <item>چراغ و سپر</item>
+    </string-array>
+    <string-array name="F2S22_13">
+        <!--keifiat-->
+        <item>طولاني بودن عمر و دوام قطعات</item>
+        <item>مقاومت زياد در برابر پوسيدگي بدنه</item>
+        <item>دوام زياد رنگ</item>
+    </string-array>
+    <string-array name="F2S22_14">
+        <!--gheimat-->
+        <item>ارزان بودن خودرو</item>
+        <item>ارزندگي خودرو به قيمت آن</item>
+    </string-array>
+    <string-array name="F2S22_15">
+        <!--mark, brand-->
+        <item>منحصر به فرد بودن خودرو (کسي مانند خودروي من نداشته باشد)</item>
+        <item>اسپرت بودن (خاص بودن شکل خودرو)</item>
+        <item>با پرستيژ بودن خودرو</item>
+        <item>مارک و برند ( خودرو و شرکت سازنده )</item>
+    </string-array>
+    <string-array name="F2S22_16">
+        <!--amniat khodro-->
+        <item>ضدسرقت بودن تجهیزات جانبی خودرو (زاپاس و ECU)</item>
+        <item>تجهیزات جلوگیری از سرقت خودرو</item>
+    </string-array>
+
+
+    <string-array name="gender">
+        <item>لطفا انتخاب کنید</item>
+        <item>مرد</item>
+        <item>زن</item>
+    </string-array>
+    <string-array name="grade">
+        <item>لطفا انتخاب کنید</item>
+        <item>ابتدایی</item>
+        <item>راهنمایی و متوسطه</item>
+        <item>دیپلم</item>
+        <item>فوق دیپلم</item>
+        <item>کارشناسی</item>
+        <item>کارشناسی ارشد و بالاتر</item>
+    </string-array>
+    <string-array name="job">
+        <item>لطفا انتخاب کنید</item>
+        <item>کارمند</item>
+        <item>مغازه دار</item>
+        <item>فني کار(نجار، برقكار، لوله كش و …)</item>
+        <item>دانشجو</item>
+        <item>فروشنده</item>
+        <item>کشاورز، باغدار، دامدار</item>
+        <item>راننده (تاکسی، مسافربر شخصی و …)</item>
+        <item>مدير عامل يا سرمايه گذار</item>
+        <item>کارگر (فصلي، نگهبان و …)</item>
+        <item>بازنشسته</item>
+        <item>خانه دار</item>
+        <item>بيکار</item>
+        <item>سایر</item>
+    </string-array>
+    <string-array name="marriedCondition">
+        <item>لطفا انتخاب کنید</item>
+        <item>متاهل</item>
+        <item>مجرد (تا کنون ازدواج نکرده)</item>
+        <item>مجرد (به دلیل جدایی)</item>
+        <item>مجرد (به دلیل فوت همسر)</item>
+    </string-array>
+
+    <!--end of form3-->
+
+
+
+
+    <string-array name="f4s8_gender">
+        <item>انتخاب نمایید</item>
+        <item>مرد</item>
+        <item>زن</item>
+    </string-array>
+
+    <string-array name="f4s8_taahol">
+        <item>انتخاب نمایید</item>
+        <item>متاهل</item>
+        <item>مجرد(تا کنون ازدواج نکرده)</item>
+        <item>مجرد(به دلیل جدایی)</item>
+        <item>مجرد(به دلیل فوت همسر)</item>
+    </string-array>
+    <string-array name="f4s8_tahsilat">
+        <item>انتخاب نمایید</item>
+        <item>ابتدایی</item>
+        <item>راهنمایی و متوسطه</item>
+        <item>دیپلم</item>
+        <item>فوق دیپلم</item>
+        <item>کارشناسی</item>
+        <item>کارشناسیکارشناسی ارشد و بالاتر</item>
+    </string-array>
+    <string-array name="f4s8_job">
+        <item>انتخاب نمایید</item>
+        <item>کارمند</item>
+        <item>مغازه دار</item>
+        <item>فنی کار(نجار،برقکار،لوله کش ...)</item>
+        <item>دانشجو</item>
+        <item>فروشنده</item>
+        <item>کشاورز،باغدار،دامدار</item>
+        <item>راننده(تاکسی،مسافربر شخصی و...)</item>
+        <item>مدیر عامل یا سرمایه گذار</item>
+        <item>کارگر(فصلی،نگهبان و...)</item>
+        <item>بازنشسته</item>
+        <item>خانه دار</item>
+        <item>بیکار</item>
+        <item>سایر(لطفا ذکر شود.....................)</item>
+    </string-array>
+
+    <!--end of form 4-->
+
+
+
+    <string-array name="f5s25v6">
+        <item>انتخاب کنید</item>
+        <item>راننده (وانت بار)</item>
+        <item>مغازه دار-میوه فروشی</item>
+        <item>مغازه دار-سوپر مارکت</item>
+        <item>مغازه دار-مصالح فروش</item>
+        <item>فنی کار (نجار,برقکار,لوله کش و...)</item>
+        <item>کشاورز</item>
+        <item>باغدار</item>
+        <item>دامدار</item>
+        <item>تعمیرکار</item>
+        <item>سایر</item>
+    </string-array>
+
+    <string-array name="F5S7">
+        <item>ابعاد قسمت بار و حجم  بار قابل حمل  (قابليت حمل بارهاي حجیم)</item>
+        <item>وزن بار قابل حمل خودرو وانت (قابليت حمل بارهاي سنگين)</item>
+        <item>تعداد كابين (تعداد سرنشيني كه مي توان با آن جابجا نمود)</item>
+        <item>قابليت استفاده در انواع جاده‌ها (خاكي، شوسه، كوهستاني و …)</item>
+        <item>سهولت بارگيري و تخليه بار</item>
+        <item>کیفیت (قطعات به کار رفته، قابلیت اعتماد، دوام خودرو)</item>
+        <item>سهولت و سادگي تعمير</item>
+        <item>خدمات پس از فروش (در دسترس بودن و کیفیت خدمات)</item>
+        <item>سطح تجهیزات و امکانات رفاهی (تهویه اتوماتیک و …)</item>
+        <item>عملكرد موتور و قواي محركه (قدرت و کشش موتور، شتاب و …)</item>
+        <item>هزينه هاي سرويس و نگهداري</item>
+        <item>میزان مصرف سوخت و پیمایش خودرو</item>
+        <item>نوع سوخت (بنزين، گازوئيل يا دوگانه سوز بودن)</item>
+        <item>قيمت (ارزندگی خودرو به قیمت)</item>
+        <item>شاسي و فنر بندي قوي</item>
+        <item>ايمني(استحكام بدنه، تجهیزات ایمنی)</item>
+        <item>میزان صدا و لرزش در اتاق</item>
+        <item>شرایط خرید و تسهیلات</item>
+        <item>زيبايي داخلي/ خارجي خودرو (استایل خودرو)</item>
+        <item>مارك، برند</item>
+    </string-array>
+    <string-array name="F5S20">
+        <item>بار باز و فله‌اي (ميوه، سبزي، مصالح ساختماني، آهن آلات و …)</item>
+        <item>مواد غذائي و كالاهاي فاسد شدني</item>
+        <item>مواد يا كالاهاي بسته‌بندي شده</item>
+        <item>اقلام شكننده و حساس (شيشه، چيني، لوازم صوتي و تصويري و …)</item>
+        <item>اسباب و اثاثيه منازل و ادارات</item>
+        <item>سيالات (آب، نفت، گازوئيل، شير و …)</item>
+        <item>دام، طيور و ماهي</item>
+        <item>سرنشين (انسان)</item>
+        <item>ساير لطفاً ذكر فرمائيد</item>
+    </string-array>
+
+
+
+
+    <!--end of form5-->
+
+
+    <string-array name="top_1">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="f6s7_values">
+        <item>ابعاد قسمت بار و حجم  بار قابل حمل  (قابليت حمل بارهاي حجیم)</item>
+        <item>وزن بار قابل حمل خودرو وانت (قابليت حمل بارهاي سنگين)</item>
+        <item>تعداد كابين (تعداد سرنشيني كه مي توان با آن جابجا نمود)</item>
+        <item>قابليت استفاده در انواع جاده‌ها (خاكي، شوسه، كوهستاني و ........)</item>
+        <item>سهولت بارگيري و تخليه بار</item>
+        <item>کیفیت (قطعات به کار رفته، قابلیت اعتماد، دوام خودرو)</item>
+        <item>سهولت و سادگي تعمير</item>
+        <item>خدمات پس از فروش (در دسترس بودن و کیفیت خدمات)</item>
+        <item>سطح تجهیزات و امکانات رفاهی (تهویه اتوماتیک و ...)</item>
+        <item>عملكرد موتور و قواي محركه (قدرت و کشش موتور، شتاب و ...)</item>
+        <item>هزينه هاي سرويس و نگهداري</item>
+        <item>میزان مصرف سوخت و پیمایش خودرو</item>
+        <item>نوع سوخت (بنزين، گازوئيل يا دوگانه سوز بودن)</item>
+        <item>قيمت (ارزندگی خودرو به قیمت)</item>
+        <item>شاسي و فنر بندي قوي</item>
+        <item>ايمني(استحكام بدنه، تجهیزات ایمنی)</item>
+        <item>میزان صدا و لرزش در اتاق</item>
+        <item>شرایط خرید و تسهیلات</item>
+        <item>زيبايي داخلي/ خارجي خودرو (استایل خودرو)</item>
+        <item>مارك، برند</item>
+    </string-array>
+
+    <!--end of from 6 yes :D-->
+
+    <string-array name="select">
+        <item>انتخاب کنید</item>
+    </string-array>
+
+
+
+</resources>

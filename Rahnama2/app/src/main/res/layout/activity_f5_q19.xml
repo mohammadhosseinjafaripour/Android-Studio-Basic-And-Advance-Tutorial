@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q19">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="19- با توجه به اينكه شما قصد داريد در آينده خودرو وانت خريداري نماييد، با توجه به نياز، بودجه خرید و وانت انتخابی خود و با درنظرگرفتن اینکه قیمت وانتهای وارداتی عموماً بالاتر از قیمت وانتهای تولید داخلی می باشد، ترجيح مي‌دهيد وانت آينده خود را از بين محصولات شركتهاي خودروساز داخلي خريداري كنيد يا اينكه قصد خريد وانت وارداتي را داريد؟"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/F5S19V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S19V1_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="تمايل به خريد وانتی از شرکتهاي خودروساز داخلي دارم" />
+
+                <Spinner
+                    style="@style/spinner_style"
+                    android:visibility="gone"
+                    android:id="@+id/F5S19V2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="نام شرکت" />
+
+                <Spinner
+                    style="@style/spinner_style"
+                    android:visibility="gone"
+                    android:id="@+id/F5S19V3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="نام برند" />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S19V1_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="تمايل به خريد وانت وارداتی دارم " />
+
+                <Spinner
+                    android:visibility="gone"
+                    style="@style/spinner_style"
+                    android:id="@+id/F5S19V4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="نام شرکت" />
+
+                <Spinner
+                    style="@style/spinner_style"
+                    android:visibility="gone"
+                    android:id="@+id/F5S19V5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="نام برند" />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S19V1_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="برایم فرقی نمی کند" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

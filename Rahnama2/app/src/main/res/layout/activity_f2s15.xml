@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form2.f2s15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form2"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:background="@color/divider"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingTop="10dp"
+                android:textSize="@dimen/font"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15- ) در صورتیکه تمایل به خرید خودرو با موتور مجهز به توربوشارژ دارید، چه میزان تفاوت قیمت را برای خودرو با موتور توربوشارژ در مقایسه با همین خودرو با موتور معمولی (غیر توربوشارژ) قابل قبول می دانید؟(با حجم موتور یکسان، موتور توربوشارژ در مقایسه با موتور معمولی، حدود 20 تا 30 درصد قدرت و گشتاور بالاتر و حدود 5 تا 10 درصد مصرف سوخت بیشتر خواهد بود"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/f2s15_errorlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/f2s15_errorTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/divider"
+                android:text="لطفا یک گزینه را انتخاب کنید"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f2s15v1">
+                    <RadioButton
+                        android:hint="1"
+                        android:id="@+id/f2s15v1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 2 تا 3 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+
+                    <RadioButton
+                        android:hint="2"
+                        android:id="@+id/f2s15v1_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 3 تا 5 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="3"
+                        android:id="@+id/f2s15v1_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بین 5 تا 7 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                    <RadioButton
+                        android:hint="4"
+                        android:id="@+id/f2s15v1_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="بیشتر از 7 میلیون تومان"
+                        android:layoutDirection="rtl"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="start"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/f2s15vclick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="مرحله بعد" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".form1.f1s1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/title_form1"
+            />
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="نام و نام خوانوادگی پاسخگو"
+            android:id="@+id/textView"
+            android:layout_gravity="right"
+            android:visibility="gone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s1v1"
+            android:layout_gravity="right"
+            android:hint="نام و نام خوانوادگی پاسخگو"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="جنسیت"
+            android:id="@+id/t1"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            android:background="#a1cfee"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+        <RadioGroup
+            android:id="@+id/f1s1v2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرد"
+            android:id="@+id/man"
+            android:layoutDirection="rtl"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:hint="1" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="زن"
+            android:id="@+id/woman"
+            android:layoutDirection="rtl"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:hint="2" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="سن"
+            android:id="@+id/age"
+            android:layout_gravity="right"
+            android:visibility="gone" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s1v3"
+            android:layout_gravity="right"
+            android:maxLength="2"
+            android:inputType="number"
+            android:hint="سن" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="تلفن ثابت"
+            android:id="@+id/phone"
+            android:layout_gravity="right"
+            android:hint="تلفن ثابت"
+            android:visibility="gone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s1v4"
+            android:layout_gravity="right"
+            android:maxLength="11"
+            android:inputType="number"
+            android:hint="تلفن ثابت" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="موبایل"
+            android:id="@+id/mobile"
+            android:layout_gravity="right"
+            android:visibility="gone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s1v5"
+            android:layout_gravity="right"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:hint="موبایل" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="تعداد اعضا خانواده"
+            android:id="@+id/familycount"
+            android:layout_gravity="right"
+            android:visibility="gone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1s1v6"
+            android:layout_gravity="right"
+            android:maxLength="2"
+            android:inputType="number"
+            android:hint="تعداد اعضا خانواده" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="میزان تاثیر نقش در خرید خودرو"
+            android:id="@+id/efect"
+            android:layout_gravity="right"
+            android:background="#a1cfee"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+        <RadioGroup
+            android:textSize="@dimen/sub_font"
+            android:id="@+id/f1s1v7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        <RadioButton
+            android:textSize="@dimen/sub_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تصمیم گیرنده اصلی"
+            android:id="@+id/master"
+            android:hint="1" />
+        <RadioButton
+            android:textSize="@dimen/sub_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="در انتخاب و خرید خودرو نقش دارم"
+            android:id="@+id/chmaster"
+            android:hint="2" />
+        <RadioButton
+            android:textSize="@dimen/sub_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="در انتخاب و خرید خودرو نفش چندانی ندارم"
+            android:id="@+id/slave"
+            android:hint="3" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05">
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="سوال بعدی"
+            android:onClick="get_sel" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+    </ScrollView>

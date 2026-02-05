@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue_pressed">#3F51B5</color>
+    <color name="blue_normal">#303F9F</color>
+    <color name="divider">#a1cfee</color>
+    <color name="black">#000000</color>
+    <color name="blue">#201c95</color>
+    <color name="hint">#474748</color>
+</resources>

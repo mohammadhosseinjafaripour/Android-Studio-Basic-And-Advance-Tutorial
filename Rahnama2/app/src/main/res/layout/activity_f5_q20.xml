@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q20">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="20- با توجه به نياز، بودجه خرید و وانت انتخابی خود، ، بطور معمول قصد داريد براي حمل چه نوع بارهائي از خودروي وانت استفاده ‌نمائيد؟به ترتيب 4 اولويت اول خود را انتخاب کنيد"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/F5S20V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="1"
+                android:layoutDirection="rtl"
+                android:text="بار باز و فله‌اي (ميوه، سبزي، مصالح ساختماني، آهن آلات و …)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2"
+                android:layoutDirection="rtl"
+                android:text="مواد غذائي و كالاهاي فاسد شدني"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="3"
+
+                android:layoutDirection="rtl"
+                android:text="مواد يا كالاهاي بسته‌بندي شده"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="4"
+                android:layoutDirection="rtl"
+                android:text="اقلام شكننده و حساس (شيشه، چيني، لوازم صوتي و تصويري و …)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="5"
+                android:layoutDirection="rtl"
+                android:text="اسباب و اثاثيه منازل و ادارات"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="6"
+                android:layoutDirection="rtl"
+                android:text="سيالات (آب، نفت، گازوئيل، شير و …)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="7"
+                android:layoutDirection="rtl"
+                android:text="دام، طيور و ماهي"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="8"
+                android:layoutDirection="rtl"
+                android:text="سرنشين (انسان)"
+                android:textDirection="rtl" />
+
+            <CheckBox
+                android:id="@+id/F5S20V9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="9"
+                android:layoutDirection="rtl"
+                android:text="ساير لطفاً ذكر فرمائيد"
+                android:textDirection="rtl" />
+
+            <EditText
+                android:id="@+id/F5S20V10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="سایر"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

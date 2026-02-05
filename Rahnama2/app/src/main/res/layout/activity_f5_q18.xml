@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form5.F5Q18">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+        <TextView
+            android:id="@+id/F5S18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/divider"
+            android:layoutDirection="rtl"
+            android:text="18- به نظر شما در صورت عرضه وانت انتخابی شما، با موتور‌هاي دوگانه سوز و ديزلي(با سطح تجهیزات و مشخصات فني شبيه مدل بنزيني) و قيمتهای فعلی انواع سوخت،  چه مقدار افزايش قيمت نسبت به خودرو بنزينی را  براي آنها معقول دانسته و پيشنهاد مي‌نمائيد."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/hybrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="موتور دوگانه سوز"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/F5S18V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S18V1_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 1 تا 2 میلیون تومان      " />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S18V1_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 2 تا 3 میلیون تومان     " />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S18V1_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 3 تا 4 میلیون تومان" />
+
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/F5S18V1_4"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بیشتر از 4 میلیون تومان" />
+
+                <RadioButton
+                    android:hint="5"
+                    android:id="@+id/F5S18V1_5"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="با این قیمتها نمی خواهم" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/F5S18V3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="قیمت پیشنهادی"
+                    android:visibility="gone" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/disel"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="موتور ديزلي"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/F5S18V2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:hint="1"
+                    android:id="@+id/F5S18V2_1"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 3 تا 4 میلیون تومان      " />
+
+                <RadioButton
+                    android:hint="2"
+                    android:id="@+id/F5S18V2_2"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 4 تا 5 میلیون تومان     " />
+
+                <RadioButton
+                    android:hint="3"
+                    android:id="@+id/F5S18V2_3"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بین 5 تا 6 میلیون تومان" />
+
+                <RadioButton
+                    android:hint="4"
+                    android:id="@+id/F5S18V2_4"
+                    style="@style/multiOptionQuestions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="بیشتر از 6 میلیون تومان" />
+
+                <RadioButton
+                    android:id="@+id/F5S18V2_5"
+                    style="@style/multiOptionQuestions"
+                    android:hint="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:gravity="right|center_vertical"
+                    android:text="با این قیمتها نمی خواهم" />
+
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/F5S18V4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="قیمت پیشنهادی"
+                    android:visibility="gone" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحله بعد" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

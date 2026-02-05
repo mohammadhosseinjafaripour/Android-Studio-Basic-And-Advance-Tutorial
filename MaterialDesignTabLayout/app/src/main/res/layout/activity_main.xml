@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jfp.materialdesigntablayout.MainActivity">
+
+
+    <in.myinnos.customimagetablayout.ChangeColorTab
+        android:id="@+id/tabcolor"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:id="@+id/message"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:padding="5dp"
+            app:item_icon="@drawable/ic_one"
+            app:item_icon_color="@color/colorPrimary"
+            app:item_tab_color="@color/colorPrimaryDark"
+            app:item_text="Message"
+            app:item_text_color="@color/colorAccent"
+            app:item_text_size="8dp">
+
+        </in.myinnos.customimagetablayout.ChangeColorItem>
+
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:id="@+id/person"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:padding="5dp"
+            app:item_icon="@drawable/ic_two"
+            app:item_icon_color="@color/colorPrimary"
+            app:item_tab_color="@color/colorPrimaryDark"
+            app:item_text="person"
+            app:item_text_color="@color/colorAccent"
+            app:item_text_size="8dp">
+
+        </in.myinnos.customimagetablayout.ChangeColorItem>
+
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:id="@+id/mail"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:padding="5dp"
+            app:item_icon="@drawable/ic_three"
+            app:item_icon_color="@color/colorPrimary"
+            app:item_tab_color="@color/colorPrimaryDark"
+            app:item_text="mail"
+            app:item_text_color="@color/colorAccent"
+            app:item_text_size="8dp">
+
+        </in.myinnos.customimagetablayout.ChangeColorItem>
+
+
+        <in.myinnos.customimagetablayout.ChangeColorItem
+            android:id="@+id/favorite"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:padding="5dp"
+            app:item_icon="@drawable/ic_four"
+            app:item_icon_color="@color/colorPrimary"
+            app:item_tab_color="@color/colorPrimaryDark"
+            app:item_text="Favorite"
+            app:item_text_color="@color/colorAccent"
+            app:item_text_size="8dp">
+
+        </in.myinnos.customimagetablayout.ChangeColorItem>
+
+
+    </in.myinnos.customimagetablayout.ChangeColorTab>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="364dp"
+        android:layout_height="431dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/viewpager"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabcolor"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.0">
+
+    </android.support.v4.view.ViewPager>
+
+</android.support.constraint.ConstraintLayout>

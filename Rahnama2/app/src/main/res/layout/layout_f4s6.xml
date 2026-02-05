@@ -1,0 +1,1221 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form4.activity_f4s1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/divider"
+         android:textColor="@color/black"
+         android:text="حال با استفاده از نمودار 9 امتيازي در حاليکه 1 يعني  اصلاً شركت خوبي نيست و 9 يعني شركت بسيار خوبي است لطفاً نظر خود را درباره هر يک از شركتهاي زير بفرماييد."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="6dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="نمی شناسم/ نظری ندارم"
+                android:background="#ed8404"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="اصلاً برند خوبی نیست ← برند بسیار خوبي است"
+                android:background="#ed8404"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="1 پارس خودرو"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/parskhodro"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v1_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="2 ایران خودرو"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/ikco"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v2_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="3 کرمان موتور"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/kermanmotor"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v3_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="4 گروه بهمن"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/bahman"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v4_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="5 مدیران خودرو"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/mvm"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v5_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="6 مرتب"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/mortabkhodro"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v6_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="7 سایپا"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/saipa"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v7_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:background="@drawable/border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f4s6_tv8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/divider"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:text="8 دیار خودرو"
+                    android:textDirection="rtl" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="right|center_vertical"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:src="@drawable/diarkhodro"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/f4s6v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_99"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="99" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="9" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="8" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="7" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="6" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="5" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="4" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="3" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="2" />
+
+                <RadioButton
+                    android:gravity="right|center_vertical"
+                    android:id="@+id/f4s6v8_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.07"
+                    android:button="@null"
+                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                    android:text="1" />
+            </RadioGroup>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/f4s6_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مرحله بعد"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

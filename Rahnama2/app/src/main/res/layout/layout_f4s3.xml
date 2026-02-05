@@ -1,0 +1,198 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="form4.activity_f4s1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <include
+        layout="@layout/title_form4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_all">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="رقابت پذيري خودروي فعلي"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@color/divider"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3- پرسشگر محترم، پس از تعيين قيمت تقريبي خودروي فعلي پاسخگو، از وی بخواهید یکی دیگر از خودروهایی که در بخش قیمتی خورو اول ایشان قرار دارد و تجربه استفاده یا شناخت نسبی به آن دارد را انتخاب نموده و در مورد این خودرو به موارد زیر پاسخ دهد"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1- مارک،مدل و تیپ خودرو انتخابی"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:id="@+id/f4s3v1"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="5dp"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/f4s3_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f4s3v4"
+                android:tag="0">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f4s3v2_1"
+                    android:hint="1"
+                    android:text="تجربه رانندگی با این خودرو را دارم"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f4s3v2_2"
+                    android:hint="2"
+                    android:text="فقط شناخت نسبی به این خودرو دارم"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1- مارک،مدل و تیپ خودرو انتخابی"
+                android:background="@color/divider"/>
+            <Spinner
+                android:layout_width="match_parent"
+                style="@style/spinner_style"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:id="@+id/f4s3v2"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/f4s3_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f4s3v5"
+                android:tag="1">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f4s3v4_1"
+                    android:hint="1"
+                    android:text="تجربه رانندگی با این خودرو را دارم"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f4s3v4_2"
+                    android:hint="2"
+                    android:text="فقط شناخت نسبی به این خودرو دارم"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1- مارک،مدل و تیپ خودرو انتخابی"
+                android:background="@color/divider"/>
+            <Spinner
+                android:layout_width="match_parent"
+                style="@style/spinner_style"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:id="@+id/f4s3v3"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/f4s3_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/divider"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f4s3v6"
+                android:tag="2">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f4s3v6_1"
+                    android:hint="1"
+                    android:text="تجربه رانندگی با این خودرو را دارم"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f4s3v6_2"
+                    android:hint="2"
+                    android:text="فقط شناخت نسبی به این خودرو دارم"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/f4s3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مرحله بعد"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
